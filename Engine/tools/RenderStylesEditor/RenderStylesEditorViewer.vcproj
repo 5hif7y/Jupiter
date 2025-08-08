@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.10"
+	Name="RenderStylesEditorViewer"
+	ProjectGUID="{36FBCB03-BF42-40F4-8580-32A7EDBA8AE0}"
+	SccProjectName=""
+	SccLocalPath=""
+	Keyword="MakeFileProj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory=".\..\..\built\Debug\tools\RenderStylesEditorViewer"
+			IntermediateDirectory=".\..\..\built\Debug\tools\RenderStylesEditorViewer"
+			ConfigurationType="0"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE">
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="devenv RenderStylesEditor.sln /build &quot;Debug Viewer&quot;"
+				ReBuildCommandLine="devenv RenderStylesEditor.sln /rebuild &quot;Debug Viewer&quot;"
+				CleanCommandLine="devenv RenderStylesEditor.sln /clean &quot;Debug Viewer&quot;"
+				Output="RenderStylesEditorViewer.exe"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory=".\..\..\built\Release\tools\RenderStylesEditorViewer"
+			IntermediateDirectory=".\..\..\built\Release\tools\RenderStylesEditorViewer"
+			ConfigurationType="0"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE">
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="devenv RenderStylesEditor.sln /build &quot;Release Viewer&quot;"
+				ReBuildCommandLine="devenv RenderStylesEditor.sln /rebuild &quot;Release Viewer&quot;"
+				CleanCommandLine="devenv RenderStylesEditor.sln /clean &quot;Release Viewer&quot;"
+				Output="RenderStylesEditorViewer.exe"/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

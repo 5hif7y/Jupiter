@@ -1,0 +1,571 @@
+<HTML>
+	<head>
+		<title>Jupiter PC - Enterprise Edition (Build 69)</title>
+		<style> h1 {COLOR:indigo}
+	h2 {background-color:blueviolet;color:white;padding:2px;}
+	h3 {COLOR:indigo}
+	</style>
+	</head>
+	<body>
+		<p style="PADDING-RIGHT:2px;PADDING-LEFT:2px;PADDING-BOTTOM:2px;COLOR:white;PADDING-TOP:2px;BACKGROUND-COLOR:blueviolet">
+			<font size="+3"><b>&nbsp;JUPITER TECHNOLOGY</b></font>
+		</p>
+		<table>
+			<tr>
+				<td align="left" valign="top" width="100%">
+					<h1>
+						PC Enterprise Edition
+						<br>
+						<i>Build 69</i>
+					</h1>
+					<p>
+						Powering No One Lives Forever™ 2, TRON® 2.0 and numerous other games produced 
+						by developers in North America, Asia, and Europe, Jupiter is a comprehensive 
+						set of tools and technologies that gives developers wanting to push the 
+						envelope the power to create high performance, immersive games for the PC and 
+						Xbox.
+					</p>
+					<p>
+						This document contains the following sections for the <b>Enterprise Edition</b> 
+						of the Jupiter System:
+					</p>
+					<ul type="square">
+						<li>
+							<a href="#WhatsNew">What's New?</a>
+						<li>
+							<a href="./system_requirements.htm">System Requirements</a>
+						<li>
+							<a href="#SpecialNotes">Required Model/World Reprocessesing</a>
+						<li>
+							<a href="./documentation.htm">Documentation</a>
+						<li>
+							<a href="./Samples.htm">Samples</a>
+						<li>
+							<a href="./content_plugins.htm">Content Plugins</a>
+						<li>
+							<a href="#BuildingfromtheCommandLine">Building from the Command Line</a>
+						<li>
+							<a href="#BuildingfromVisualStudio">Building from Visual Studio</a>
+						<li>
+							<a href="#RunningtheSamples">Running the Samples</a>
+						<li>
+							<a href="#RunningTheGame">Running No One Lives Forever™ 2</a>
+						<li>
+							<a href="#DebuggingtheSamples">Debugging the Samples</a>
+						<li>
+							<a href="#DebuggingTO2">Debugging No One Lives Forever™ 2</a>
+						<li>
+							<a href="#LaunchingTheGameWithinDEdit">Launching the Game Within DEdit</a>
+						<li>
+							<a href="#Components">Components</a>
+						<li>
+							<a href="#Support">Support</a></li>
+					</ul>
+				</td>
+				<td align="right" valign="top">
+					<img src="LTLogo2.gif" border="0" alt="Jupiter logo">
+				</td>
+			</tr>
+		</table>
+		<h2>
+			<a name="WhatsNew"></a>&nbsp;What's New?
+		</h2>
+		<h3>
+			Visual C++ .NET 2003
+		</h3>
+		<blockquote>
+			<p>
+				The Jupiter System now supports Visual C++ .NET 2003 (v7.1). <STRONG>Visual C++ 
+					.NET 2002 (v7) is no longer supported.</STRONG>
+			</p>
+		</blockquote>
+		<h3>
+			DirectX 9 Effect Files
+		</h3>
+		<blockquote>
+			<p>
+				The Jupiter System introduces the new EffectShader system for utilizing DirectX 
+				Effect files.
+			</p>
+		</blockquote>
+		<h3>
+			Maya 7.0
+		</h3>
+		<blockquote>
+			<p>
+				The Jupiter System now supports Maya 7.0.
+			</p>
+		</blockquote>
+		<h3>
+			DirectShow Video Playback
+		</h3>
+		<blockquote>
+			<p>
+				The Jupiter System now supports DirectShow for video playback.
+			</p>
+		</blockquote>
+		<h3>
+			Linux Server
+		</h3>
+		<blockquote>
+			<p>
+				Support for Linux has been added to the Jupiter System server library.
+			</p>
+		</blockquote>
+		<h3>
+			Jupiter Release History
+		</h3>
+		<blockquote>
+			<p>
+				The complete list of new features and changes for this build of the Jupiter 
+				System can be viewed in the <A href="./Jupiter_Release_History.htm">Jupiter 
+					Release History</A>.
+			</p>
+		</blockquote>
+		<h2>
+			&nbsp;System Requirements
+		</h2>
+		<p>
+			Click <a href="./system_requirements.htm">here</a> to view the Jupiter <a href="./system_requirements.htm">
+				System Requirements</a>.
+		</p>
+		<h2>
+			<a name="SpecialNotes"></a>&nbsp;Required Model/World Reprocessesing
+		</h2>
+		<p>
+			If you are using Jupiter <b>Build 68</b> or earlier, then due to changes in 
+			the&nbsp;system code <STRONG>you must reprocess all your model</STRONG>s 
+			through ModelEdit after installing. Failure to reprocess your models will 
+			result in either incorrect model display, or failure of models to appear in the 
+			game. You <STRONG>must also reprocess your worlds</STRONG>. The world vertex 
+			format has changed to support tangent space used by the EffectShader system.
+		</p>
+		<h3>To reprocess your models:</h3>
+		<ol>
+			<li>
+			Open the .LTA or .LTC model file to process.
+			<li>
+				On the <B>File</B> menu, click <B>Save And Compile</B>.
+			<li>
+			Specify the name of the .LTB file to replace, or type the name of the new .LTB 
+			file to create.
+			<li>
+				Click the <B>Save</B> button.</li>
+		</ol>
+		<h2>
+			&nbsp;Documentation
+		</h2>
+		<p>
+			The Jupiter System <a href="./documentation.htm">documentation</a> consists 
+			of help files and white papers. A detailed list of the Jupiter System 
+			documentation can be viewed <a href="./documentation.htm">here</a>.
+		</p>
+		<h2>
+			&nbsp;Samples
+		</h2>
+		<p>
+			The Jupiter System contains a rich collection of <a href="./samples.htm">samples 
+				and tutorials</a> that demonstrate different areas of the technology. A 
+			detailed list of the Jupiter samples can be viewed <a href="./samples.htm">here</a>
+		.
+		<p>
+			<h2>
+				&nbsp;Content Plugins
+			</h2>
+		<p>
+			Instructions on how to install the Jupiter content plugins for 3D Studio Max, 
+			Maya, and Photoshop can be found <a href="./content_plugins.htm">here</a>
+		.
+		<p>
+			<h2>
+				<a name="BuildingfromtheCommandLine"></a>&nbsp;Building from the Command Line
+			</h2>
+			<h3>
+				To build the engine from the command line:
+			</h3>
+			<blockquote>
+				<ol>
+					<li>
+					Open a DOS window.
+					<li>
+					Switch to the \TouchdownEntertainment\Jupiter_Ent\Engine\Runtime\ directory.
+					<li>
+						Run the <b>build.bat</b>
+					file for Visual Studio .NET 2003 (v7.1).
+					<li>
+						Open the build.log file to view the output.</li>
+				</ol>
+				<p>
+					You can also open the build.bat file from an explorer window, but you won't be 
+					able to review the output after the build process has completed.
+				</p>
+			</blockquote>
+			<h3>
+				To build the engine tools from the command line:
+			</h3>
+			<blockquote>
+				<OL>
+					<LI>
+					Open a DOS window.
+					<LI>
+					Switch to the \TouchdownEntertainment\Jupiter_Ent\Engine\Tools\ directory.
+					<LI>
+						Run the <B>build.bat</B>
+					file for Visual Studio .NET 2003 (v7.1).
+					<LI>
+						Open the build.log file to view the output.
+					</LI>
+				</OL>
+				<p>
+					In order for the exporter plugins to build, you will need to copy over the Max 
+					and/or Maya SDK files. See the readme files in the \Engine\Tools\Plugins\ 
+					sub-folders for more information.
+				</p>
+			</blockquote>
+			<h3>
+				To build the samples from the command line:
+			</h3>
+			<blockquote>
+				<ol>
+					<li>
+					Open a DOS window.
+					<li>
+					Switch to the \TouchdownEntertainment\Jupiter_Ent\Samples\ directory.
+					<li>
+						Run the <B>build.bat</B>
+					file for Visual Studio .NET 2003 (v7.1).
+					<LI>
+						Open the build.log file to view the output.
+					</LI>
+				</ol>
+			</blockquote>
+			<H3>
+				To build the No One Lives Forever™ 2 game code from the command line:
+			</H3>
+			<blockquote>
+				<ol>
+					<li>
+					Open a DOS window.
+					<li>
+					Switch to the \TouchdownEntertainment\Jupiter_Ent\Game\ directory.
+					<li>
+						Run the <B>build.bat</B>
+					file for Visual Studio .NET 2003 (v7.1).
+					<li>
+						Open the build.log file to view the output.</li>
+				</ol>
+			</blockquote>
+			<h2>
+				<a name="BuildingfromVisualStudio"></a>&nbsp;Building from Visual Studio
+			</h2>
+			<h3>
+				Visual Studio .NET 2003 (v7.1) Instructions:
+			</h3>
+			<blockquote> <U>To build the engine code from Visual Studio .NET 2003 (v7.1):</U>
+				<OL>
+					<LI>
+						Right click on the 
+						\TouchdownEntertainment\Jupiter_Ent\Engine\Runtime\Engine.sln file and select <B>Open 
+							With Visual Studio .NET 2003</B>
+					( you may also double click on the sln file ).
+					<LI>
+						If any <B>Source Control</B> dialogs appear, click <B>No</B> or <B>Cancel</B>
+					to dismiss them.
+					<LI>
+						Select <B>Rebuild Solution</B> from the <B>Build</B> menu.</LI>
+				</OL>
+				<U>To build the engine tools code from Visual Studio .NET 2003 (v7.1):</U>
+				<OL>
+					<LI>
+						Right click on the \TouchdownEntertainment\Jupiter_Ent\Engine\Tools\Tools.sln 
+						file and select <B>Open With Visual Studio .NET 2003</B>
+					( you may also double click on the sln file ).
+					<LI>
+						If any <B>Source Control</B> dialogs appear, click <B>No</B> or <B>Cancel</B>
+					to dismiss them.
+					<LI>
+						Select <B>Rebuild Solution</B> from the <B>Build</B> menu.</LI>
+				</OL>
+				<U>To build the samples from Visual Studio .NET 2003 (v7.1):</U>
+				<OL>
+					<LI>
+						Right click on the project solution file (*.SLN) in the sample folder (Ex. 
+						\TouchdownEntertainment\Jupiter_Ent\Samples\base\samplebase\samplebase.sln) and 
+						select <B>Open With Visual Studio .NET 2003</B>
+					( you may also double click on the sln file ).
+					<LI>
+						If any <B>Source Control</B> dialogs appear, click <B>No</B> or <B>Cancel</B>
+					to dismiss them.
+					<LI>
+						Select <B>Rebuild Solution</B> from the <B>Build</B> menu.</LI>
+				</OL>
+				<U>To build the No One Lives Forever™ 2 game code from Visual Studio .NET 2003 
+					(v7.1):</U>
+				<OL>
+					<LI>
+						Right click on the \TouchdownEntertainment\Jupiter_Ent\Game\TO2.sln file and 
+						select <B>Open With Visual Studio .NET 2003</B>
+					( you may also&nbsp;double click on the sln file ).
+					<LI>
+						If any <B>Source Control</B> dialogs appear, click <B>No</B> or <B>Cancel</B>
+					to dismiss them.
+					<LI>
+						Select <B>Rebuild Solution</B> from the <B>Build</B> menu.</LI>
+				</OL>
+			</blockquote>
+			<h2>
+				<a name="RunningtheSamples"></a>&nbsp;Running the Samples
+			</h2>
+			<h3>
+				To run the samples from the command line:
+			</h3>
+			<blockquote>
+				<p>To run the samples from the command line, first build the sample and then 
+					execute the <b>run.bat</b> file for Visual Studio .NET 2003 (v7.1) in the root 
+					directory of the sample. ( Ex. 
+					\TouchdownEntertainment\Jupiter_Ent\Samples\base\samplebase\run.bat. This would 
+					run the Visual Studio .NET 2003 release build of the sample. )
+				</p>
+			</blockquote>
+			<h2>
+				<a name="RunningtheGame"></a>&nbsp;Running No One Lives Forever™ 2
+			</h2>
+		<p>
+			To run No One Lives Forever™ 2, you can run the game launcher from:
+		</p>
+		<p>
+			\TouchdownEntertainment\Jupiter_Ent\Development\TO2\NOLF2.exe
+		</p>
+		<h2>
+			<a name="#DebuggingtheSamples"></a>&nbsp;Debugging the Samples
+		</h2>
+		<h3>
+			To debug the samples from Visual Studio .NET 2003 (v7.1):
+		</h3>
+		<BLOCKQUOTE>
+			<P>
+				To debug the samples using Visual Studio .NET 2003 (v7.1), follow the 
+				instructions in the previous section to build the engine. Next, run <B>copy_binaries.bat</B>
+				in the \TouchdownEntertainment\Jupiter_Ent\Samples\bin folder. In Visual Studio 
+				.NET 2003, open the project properties for <B>cshell</B> and click the <B>Debugging</B>
+				section and enter the following parameters:
+			</P>
+			<P>
+				<B>Command:</B> <BLOCKQUOTE> Enter the path and filename for the lithtech 
+					executable: <FONT face="Courier New" size="-1">\TouchdownEntertainment\Jupiter_Ent\Samples\bin\debug\lithtech.exe</FONT>
+				</BLOCKQUOTE>
+			<P></P>
+			<P>
+				<B>Command Arguments:</B> <BLOCKQUOTE> Enter the following text:
+					<BR>
+					<BR>
+					<FONT face="Courier New" size="-1">-rez engine.rez -rez 
+						..\..\sample_type\sample_dir\rez -config 
+						..\..\sample_type\sample_dir\bin\autoexec.cfg</FONT>
+					<BR>
+					<BR>
+					Note that "sample_type\sample_dir" is the directory where the sample exists. 
+					For example, the command arguments for the SampleBase sample would be:
+					<BR>
+					<BR>
+					<FONT face="Courier New" size="-1">-rez engine.rez -rez ..\..\base\samplebase\rez 
+						-config ..\..\base\samplebase\bin\autoexec.cfg</FONT> </BLOCKQUOTE>
+			<P></P>
+			<P>
+				<B>Working Directory:</B> <BLOCKQUOTE> Enter the path to the Samples bin\debug 
+					directory: <FONT face="Courier New" size="-1">\TouchdownEntertainment\Jupiter_Ent\Samples\bin\debug</FONT>
+				</BLOCKQUOTE>
+		</BLOCKQUOTE>
+		<h2>
+			<a name="#DebuggingT02"></a>&nbsp;Debugging No One Lives Forever™ 2
+		</h2>
+		<h3>
+			To debug No One Lives Forever™ 2 from Visual Studio .NET 2003 (v7.1):
+		</h3>
+		<BLOCKQUOTE>
+			<P>
+				To debug the samples using Visual Studio .NET 2003 (v7.1), follow the 
+				instructions in the previous section to build the engine and No One Lives 
+				Forever™ 2. Open the solution TouchdownEntertainment\Jupiter_Ent\Game\T02.sln 
+				in Visual Studio .NET 2003. Open the project properties for <B>ClientShellDLL</B>
+				and click the <B>Debugging</B> section and enter the following parameters:
+			</P>
+			<P>
+				<B>Command:</B> <BLOCKQUOTE> Enter the path and filename for the lithtech 
+					executable: <FONT face="Courier New" size="-1">\TouchdownEntertainment\Jupiter_Ent\Development\TO2\Lithtech.exe</FONT>
+				</BLOCKQUOTE>
+			<P></P>
+			<P>
+				<B>Command Arguments:</B> <BLOCKQUOTE> Enter the following text:
+					<BR>
+					<BR>
+					<FONT face="Courier New" size="-1">-windowtitle "No One Lives Forever 2" -rez GAME 
+						+multiplayer 0 +DisableMusic 0 +DisableSound 0 +DisableTripBuf 0 
+						+DisableHardwareCursor 0 +DisableHardwareSound 0 +DisableSoundFilters 0 
+						+Windowed 1 +DebugLevel 1 </FONT>
+					<BR>
+				</BLOCKQUOTE>
+			<P></P>
+			<P>
+				<B>Working Directory:</B> <BLOCKQUOTE> Enter the path to the No One Lives Forever™ 
+					2 directory: <FONT face="Courier New" size="-1">\TouchdownEntertainment\Jupiter_Ent\Development\TO2</FONT>
+				</BLOCKQUOTE>
+		</BLOCKQUOTE>
+		<h2>
+			<a name="#LaunchingTheGameWithinDEdit"></a>Launching the Game Within DEdit
+		</h2>
+		<h3>
+			To launch No One Lives Forever™ 2 from DEdit:
+		</h3>
+		<ol>
+			<li>
+			Run DEdit.
+			<li>
+				Select <b>Edit</b> and then <b>Options</b>.
+			<li>
+				Select the <b>Run</b>
+			tab.
+			<li>
+				Enter the following parameters:
+				<p>
+					<b>Executable:</b> <blockquote> Enter the path and filename for the lithtech 
+						executable: <font face="Courier New" size="-1">C:\TouchdownEntertainment\Jupiter_Ent\Development\TO2\Lithtech.exe</font>
+					</blockquote>
+				<P></P>
+				<p>
+					<b>Working directory:</b> <blockquote> Enter the path to the root of the NOLF2 game 
+						directory: <font face="Courier New" size="-1">C:\TouchdownEntertainment\Jupiter_Ent\Development\TO2</font>
+					</blockquote>
+				<P></P>
+				<p>
+					<b>Program arguments:</b> <blockquote> Enter the following text: <font face="Courier New" size="-1">
+							-rez engine.rez -rez ..\..\Game +runworld %WorldName%</font> </blockquote>
+				<P></P>
+			<li>
+				Select <b>OK</b>.
+			<li>
+				When you have a world open, you can now click the <b>Run World</b> button to 
+				launch the game.</li>
+		</ol>
+		<h3>
+			To launch a sample from DEdit:
+		</h3>
+		<ol>
+			<li>
+			Run DEdit.
+			<li>
+				Select <b>Edit</b> and then <b>Options</b>.
+			<li>
+				Select the <b>Run</b>
+			tab.
+			<li>
+				Enter the following parameters:
+				<p>
+					<b>Executable:</b> <blockquote> Enter the path and filename for the lithtech 
+						executable: <font face="Courier New" size="-1">C:\TouchdownEntertainment\Samples\bin\Release\Lithtech.exe</font>
+					</blockquote>
+				<P></P>
+				<p>
+					<b>Working directory:</b> <blockquote> Enter the path to the lithtech executable: <font face="Courier New" size="-1">
+							C:\TouchdownEntertainment\Samples\bin\Release</font> </blockquote>
+				<P></P>
+				<p>
+					<b>Program arguments:</b> <blockquote> Enter the following text:
+						<br>
+						<br>
+						<font face="Courier New" size="-1">-rez engine.rez -rez 
+							..\..\sample_type\sample_dir\rez -config 
+							..\..\sample_type\sample_dir\bin\autoexec.cfg +runworld %WorldName%</font>
+						<br>
+						<br>
+						Note that "sample_type\sample_dir" is the directory where the sample exists. 
+						For example, the program arguments for the SampleBase sample would be:
+						<br>
+						<br>
+						<font face="Courier New" size="-1">-rez engine.rez -rez ..\..\base\samplebase\rez 
+							-config ..\..\base\samplebase\bin\autoexec.cfg +runworld %WorldName%</font> </blockquote>
+				<P></P>
+			<li>
+				Select <b>OK</b>.
+			<li>
+				When you have a world open, you can now click the <b>Run World</b> button to 
+				launch the game.</li>
+		</ol>
+		<h2>
+			<a name="Components"></a>&nbsp;Components
+		</h2>
+		<p>
+			The various Jupiter components are located in the following subdirectories of 
+			\TouchdownEntertainment\Jupiter_Ent:
+		</p>
+		<blockquote>
+			<table>
+				<tr>
+					<td width="50%">\Development\TO2</td>
+					<td>Binary No One Lives Forever™ 2 game and resources</td>
+				</tr>
+				<tr>
+					<td>\Docs</td>
+					<td>Documentation</td>
+				</tr>
+				<tr>
+					<td>\Engine\Built</td>
+					<td>Compiled engine libraries and executables</td>
+				</tr>
+				<tr>
+					<td>\Engine\ClientFx</td>
+					<td>ClientFx source code</td>
+				</tr>
+				<tr>
+					<td>\Engine\Libs</td>
+					<td>Engine libraries</td>
+				</tr>
+				<tr>
+					<td>\Engine\Runtime</td>
+					<td>Engine source code</td>
+				</tr>
+				<tr>
+					<td>\Engine\sdk</td>
+					<td>SDK header files</td>
+				</tr>
+				<tr>
+					<td>\Engine\Tools</td>
+					<td>Tool source code</td>
+				</tr>
+				<tr>
+					<td>\Game</td>
+					<td>No One Lives Forever™ 2 source code</td>
+				</tr>
+				<tr>
+					<td>\Libs</td>
+					<td>Library source code</td>
+				</tr>
+				<tr>
+					<td>\Samples</td>
+					<td>Sample source code</td>
+				</tr>
+				<tr>
+					<td>\Samples\bin</td>
+					<td>Compiled engine binaries</td>
+				</tr>
+				<tr>
+					<td>\Tools</td>
+					<td>Tool binaries</td>
+				</tr>
+			</table>
+		</blockquote>
+		<h2>
+			<a name="Support"></a>&nbsp;Support
+		</h2>
+		<p>
+			For assistance with technical issues relating to the Jupiter System, e-mail 
+			Touchdown Entertainment support at <a href="mailto:support@touchdownentertainment.com">
+				support@touchdownentertainment.com</a>.
+		</p>
+		<h2>
+		</h2>
+		<p>
+			<font size="-1">©2006 Touchdown Entertainment, Inc. All rights reserved.</font>
+		</p>
+	</body>
+</HTML>

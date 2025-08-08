@@ -1,0 +1,60 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RenderStylesEditor", "RenderStylesEditor.vcproj", "{A231046B-3C58-4F6C-BDF2-26DA6F8F3BF4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E5B10440-E2BE-4C57-A831-CB43A010160E} = {E5B10440-E2BE-4C57-A831-CB43A010160E}
+		{1B1401D4-CC33-4113-B220-73146A036DB7} = {1B1401D4-CC33-4113-B220-73146A036DB7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ltamgr", "..\..\libs\ltamgr\ltamgr.vcproj", "{E5B10440-E2BE-4C57-A831-CB43A010160E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lib_StdLith", "..\..\..\Libs\stdlith\Lib_StdLith.vcproj", "{1B1401D4-CC33-4113-B220-73146A036DB7}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Debug Viewer = Debug Viewer
+		Final = Final
+		Release = Release
+		Release Viewer = Release Viewer
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A231046B-3C58-4F6C-BDF2-26DA6F8F3BF4}.Debug.ActiveCfg = Debug|Win32
+		{A231046B-3C58-4F6C-BDF2-26DA6F8F3BF4}.Debug.Build.0 = Debug|Win32
+		{A231046B-3C58-4F6C-BDF2-26DA6F8F3BF4}.Debug Viewer.ActiveCfg = Debug Viewer|Win32
+		{A231046B-3C58-4F6C-BDF2-26DA6F8F3BF4}.Debug Viewer.Build.0 = Debug Viewer|Win32
+		{A231046B-3C58-4F6C-BDF2-26DA6F8F3BF4}.Final.ActiveCfg = Release|Win32
+		{A231046B-3C58-4F6C-BDF2-26DA6F8F3BF4}.Final.Build.0 = Release|Win32
+		{A231046B-3C58-4F6C-BDF2-26DA6F8F3BF4}.Release.ActiveCfg = Release|Win32
+		{A231046B-3C58-4F6C-BDF2-26DA6F8F3BF4}.Release.Build.0 = Release|Win32
+		{A231046B-3C58-4F6C-BDF2-26DA6F8F3BF4}.Release Viewer.ActiveCfg = Release Viewer|Win32
+		{A231046B-3C58-4F6C-BDF2-26DA6F8F3BF4}.Release Viewer.Build.0 = Release Viewer|Win32
+		{E5B10440-E2BE-4C57-A831-CB43A010160E}.Debug.ActiveCfg = Debug|Win32
+		{E5B10440-E2BE-4C57-A831-CB43A010160E}.Debug.Build.0 = Debug|Win32
+		{E5B10440-E2BE-4C57-A831-CB43A010160E}.Debug Viewer.ActiveCfg = Debug|Win32
+		{E5B10440-E2BE-4C57-A831-CB43A010160E}.Debug Viewer.Build.0 = Debug|Win32
+		{E5B10440-E2BE-4C57-A831-CB43A010160E}.Final.ActiveCfg = Release|Win32
+		{E5B10440-E2BE-4C57-A831-CB43A010160E}.Final.Build.0 = Release|Win32
+		{E5B10440-E2BE-4C57-A831-CB43A010160E}.Release.ActiveCfg = Release|Win32
+		{E5B10440-E2BE-4C57-A831-CB43A010160E}.Release.Build.0 = Release|Win32
+		{E5B10440-E2BE-4C57-A831-CB43A010160E}.Release Viewer.ActiveCfg = Release|Win32
+		{E5B10440-E2BE-4C57-A831-CB43A010160E}.Release Viewer.Build.0 = Release|Win32
+		{1B1401D4-CC33-4113-B220-73146A036DB7}.Debug.ActiveCfg = Debug|Win32
+		{1B1401D4-CC33-4113-B220-73146A036DB7}.Debug.Build.0 = Debug|Win32
+		{1B1401D4-CC33-4113-B220-73146A036DB7}.Debug Viewer.ActiveCfg = Debug|Win32
+		{1B1401D4-CC33-4113-B220-73146A036DB7}.Debug Viewer.Build.0 = Debug|Win32
+		{1B1401D4-CC33-4113-B220-73146A036DB7}.Final.ActiveCfg = Final|Win32
+		{1B1401D4-CC33-4113-B220-73146A036DB7}.Final.Build.0 = Final|Win32
+		{1B1401D4-CC33-4113-B220-73146A036DB7}.Release.ActiveCfg = Release|Win32
+		{1B1401D4-CC33-4113-B220-73146A036DB7}.Release.Build.0 = Release|Win32
+		{1B1401D4-CC33-4113-B220-73146A036DB7}.Release Viewer.ActiveCfg = Release|Win32
+		{1B1401D4-CC33-4113-B220-73146A036DB7}.Release Viewer.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

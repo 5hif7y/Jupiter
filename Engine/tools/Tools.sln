@@ -1,0 +1,997 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ButeMgr", "..\..\Libs\ButeMgr\ButeMgr.vcproj", "{CDF189C8-F63C-4B4B-9050-634535DA1A7D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ButeEdit", "ButeEdit\ButeEdit.vcproj", "{F79E8505-80D8-4940-BE6C-24A6CC13DBA4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9E355C8A-E922-42DE-9FBF-076DB71B7630} = {9E355C8A-E922-42DE-9FBF-076DB71B7630}
+		{1B1401D4-CC33-4113-B220-73146A036DB7} = {1B1401D4-CC33-4113-B220-73146A036DB7}
+		{A0BA00E5-D661-49B6-B1F0-C595185CF954} = {A0BA00E5-D661-49B6-B1F0-C595185CF954}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CryptMgr", "..\..\Libs\CryptMgr\cryptmgr.vcproj", "{4D71855A-6759-4D91-A3E5-C7B71A816477}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MfcDlls", "..\..\Libs\MfcDlls.vcproj", "{A0BA00E5-D661-49B6-B1F0-C595185CF954}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DibMgr", "..\..\Libs\dibmgr\dibmgr60.vcproj", "{784F6D25-4289-4460-B82D-83A59E81D53C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GenRegMgr", "..\..\Libs\genregmgr\genregmgr60.vcproj", "{60C8731A-316E-42C5-9B1C-DAF207F3698B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lib_ILTSound", "..\runtime\sound\src\Lib_ILTSound.vcproj", "{F9387061-18E7-40A3-B0E4-9CEC2FABE7CF}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lib_Lith", "..\..\Libs\lith\Lib_Lith.vcproj", "{6A124F5D-D9D0-49E2-B771-6CB6B8B1D1A3}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lib_RezMgr", "..\libs\rezmgr\Lib_RezMgr.vcproj", "{7C961F0A-5C6F-42E5-93F8-91FEEACC8AD6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lib_StdLith", "..\..\Libs\stdlith\Lib_StdLith.vcproj", "{1B1401D4-CC33-4113-B220-73146A036DB7}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lib_ZLib", "..\..\Libs\zlib\Lib_ZLib.vcproj", "{9E355C8A-E922-42DE-9FBF-076DB71B7630}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MFCStub", "..\..\Libs\MFCStub\MFCStub60.vcproj", "{718F7FCE-F855-4BE4-8E85-D4DAF492A15D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RegMgr", "..\..\Libs\RegMgr\regmgr60.vcproj", "{018E8B44-4293-40EE-9B3F-7F8C57688251}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DEdit", "DEdit\dedit60.vcproj", "{9DB3ED68-E606-43FD-9522-9BCBF663A7B2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7C961F0A-5C6F-42E5-93F8-91FEEACC8AD6} = {7C961F0A-5C6F-42E5-93F8-91FEEACC8AD6}
+		{60C8731A-316E-42C5-9B1C-DAF207F3698B} = {60C8731A-316E-42C5-9B1C-DAF207F3698B}
+		{E5B10440-E2BE-4C57-A831-CB43A010160E} = {E5B10440-E2BE-4C57-A831-CB43A010160E}
+		{018E8B44-4293-40EE-9B3F-7F8C57688251} = {018E8B44-4293-40EE-9B3F-7F8C57688251}
+		{6A124F5D-D9D0-49E2-B771-6CB6B8B1D1A3} = {6A124F5D-D9D0-49E2-B771-6CB6B8B1D1A3}
+		{1B1401D4-CC33-4113-B220-73146A036DB7} = {1B1401D4-CC33-4113-B220-73146A036DB7}
+		{A0BA00E5-D661-49B6-B1F0-C595185CF954} = {A0BA00E5-D661-49B6-B1F0-C595185CF954}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ltamgr", "..\libs\ltamgr\ltamgr.vcproj", "{E5B10440-E2BE-4C57-A831-CB43A010160E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dtxutil", "dtxutil\dtxutil.vcproj", "{887B197D-1EFF-430B-BEBA-E54D140C2F18}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1B1401D4-CC33-4113-B220-73146A036DB7} = {1B1401D4-CC33-4113-B220-73146A036DB7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FxED", "FxED\FxED.vcproj", "{7119684A-8CB3-4A6A-BE97-216C14AE6321}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7C961F0A-5C6F-42E5-93F8-91FEEACC8AD6} = {7C961F0A-5C6F-42E5-93F8-91FEEACC8AD6}
+		{6A124F5D-D9D0-49E2-B771-6CB6B8B1D1A3} = {6A124F5D-D9D0-49E2-B771-6CB6B8B1D1A3}
+		{1B1401D4-CC33-4113-B220-73146A036DB7} = {1B1401D4-CC33-4113-B220-73146A036DB7}
+		{A0BA00E5-D661-49B6-B1F0-C595185CF954} = {A0BA00E5-D661-49B6-B1F0-C595185CF954}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HeightMaptoNormalMap", "HeightMaptoNormalMap\HeightMaptoNormalMap.vcproj", "{C19CF331-A8EA-4920-AA8F-FFCE376329DF}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lipcompiler", "lipcompiler\lipcompiler.vcproj", "{822DC024-8B62-415D-8C0D-5713229AFFFC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LithRez", "LithRez\LithRez.vcproj", "{52F03BD0-4841-4C3A-ADCA-C4F917266246}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7C961F0A-5C6F-42E5-93F8-91FEEACC8AD6} = {7C961F0A-5C6F-42E5-93F8-91FEEACC8AD6}
+		{6A124F5D-D9D0-49E2-B771-6CB6B8B1D1A3} = {6A124F5D-D9D0-49E2-B771-6CB6B8B1D1A3}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ltaview", "ltaview\ltaview.vcproj", "{4DB9CAEF-6B62-4A5D-BEBB-0F593A80F844}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E5B10440-E2BE-4C57-A831-CB43A010160E} = {E5B10440-E2BE-4C57-A831-CB43A010160E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LTAsk", "utils\LTAsk\LTAsk.vcproj", "{AA5A393E-D882-45C0-989D-DFC13FC9D409}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ltbhead", "ltbhead\ltbhead.vcproj", "{6F544761-3EAD-4FE0-AE88-0C4B097B3866}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LTC", "LTC\LTC.vcproj", "{5959BDBC-76E9-4D31-8D6A-E9D9996879AC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E5B10440-E2BE-4C57-A831-CB43A010160E} = {E5B10440-E2BE-4C57-A831-CB43A010160E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LTDMTest", "ltdmtest\LTDMTest.vcproj", "{466C886A-75A6-4947-8C6D-82C4B75647D9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7C961F0A-5C6F-42E5-93F8-91FEEACC8AD6} = {7C961F0A-5C6F-42E5-93F8-91FEEACC8AD6}
+		{6A124F5D-D9D0-49E2-B771-6CB6B8B1D1A3} = {6A124F5D-D9D0-49E2-B771-6CB6B8B1D1A3}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Model_Packer", "Model_Packer\Model_Packer.vcproj", "{7DECF6FF-2615-446A-B084-02DD7AF26360}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E5B10440-E2BE-4C57-A831-CB43A010160E} = {E5B10440-E2BE-4C57-A831-CB43A010160E}
+		{1B1401D4-CC33-4113-B220-73146A036DB7} = {1B1401D4-CC33-4113-B220-73146A036DB7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ModelEdit", "ModelEdit\ModelEdit.vcproj", "{344D5C46-7781-47A8-8BDE-95EE4E7D11F6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E5B10440-E2BE-4C57-A831-CB43A010160E} = {E5B10440-E2BE-4C57-A831-CB43A010160E}
+		{018E8B44-4293-40EE-9B3F-7F8C57688251} = {018E8B44-4293-40EE-9B3F-7F8C57688251}
+		{6A124F5D-D9D0-49E2-B771-6CB6B8B1D1A3} = {6A124F5D-D9D0-49E2-B771-6CB6B8B1D1A3}
+		{1B1401D4-CC33-4113-B220-73146A036DB7} = {1B1401D4-CC33-4113-B220-73146A036DB7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pma", "pma\pma.vcproj", "{8B0BA77C-25AE-4D10-A137-4A9EE7348D95}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WorldPacker", "PreProcessor\WorldPacker.vcproj", "{1B994051-3C73-4D33-9656-9C60ACEA6F26}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E5B10440-E2BE-4C57-A831-CB43A010160E} = {E5B10440-E2BE-4C57-A831-CB43A010160E}
+		{018E8B44-4293-40EE-9B3F-7F8C57688251} = {018E8B44-4293-40EE-9B3F-7F8C57688251}
+		{6A124F5D-D9D0-49E2-B771-6CB6B8B1D1A3} = {6A124F5D-D9D0-49E2-B771-6CB6B8B1D1A3}
+		{1B1401D4-CC33-4113-B220-73146A036DB7} = {1B1401D4-CC33-4113-B220-73146A036DB7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PropHelpGen", "PropHelpGen\PropHelpGen.vcproj", "{985297F0-FB71-4584-B9D4-363CF2881398}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1B1401D4-CC33-4113-B220-73146A036DB7} = {1B1401D4-CC33-4113-B220-73146A036DB7}
+		{A0BA00E5-D661-49B6-B1F0-C595185CF954} = {A0BA00E5-D661-49B6-B1F0-C595185CF954}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "recurse_run", "recurse_run\recurse_run.vcproj", "{B4A32D9C-8447-431F-9E6D-3DE58450B3DF}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RenderStyle_Packer", "RenderStyle_Packer\RenderStyle_Packer.vcproj", "{5BEB20FD-E9E1-4A7D-8752-5A0B7578E462}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E5B10440-E2BE-4C57-A831-CB43A010160E} = {E5B10440-E2BE-4C57-A831-CB43A010160E}
+		{6A124F5D-D9D0-49E2-B771-6CB6B8B1D1A3} = {6A124F5D-D9D0-49E2-B771-6CB6B8B1D1A3}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RenderStylesEditor", "RenderStylesEditor\RenderStylesEditor.vcproj", "{A231046B-3C58-4F6C-BDF2-26DA6F8F3BF4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E5B10440-E2BE-4C57-A831-CB43A010160E} = {E5B10440-E2BE-4C57-A831-CB43A010160E}
+		{1B1401D4-CC33-4113-B220-73146A036DB7} = {1B1401D4-CC33-4113-B220-73146A036DB7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TSCompiler", "TSCompiler\TSCompiler.vcproj", "{B789E858-42DA-4C20-A900-DA157E1A6BB4}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WaveEdit", "WaveEdit\WaveEdit.vcproj", "{2D4429EC-F905-4417-B1B3-B627C10D3DB8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F9387061-18E7-40A3-B0E4-9CEC2FABE7CF} = {F9387061-18E7-40A3-B0E4-9CEC2FABE7CF}
+		{1B1401D4-CC33-4113-B220-73146A036DB7} = {1B1401D4-CC33-4113-B220-73146A036DB7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinLTC", "WinLTC\WinLTC.vcproj", "{6B735946-C903-409A-83F9-56ECDE2D4821}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E5B10440-E2BE-4C57-A831-CB43A010160E} = {E5B10440-E2BE-4C57-A831-CB43A010160E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "winpacker", "winpacker\winpacker.vcproj", "{45C6B1FD-04FF-471D-A75D-2AD6390A3F07}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Plugins_Max30", "Plugins\Plugins_Max30.vcproj", "{F2968CD9-2E3D-4E72-839A-F5B62839E4FD}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Plugins_Max40", "Plugins\Plugins_Max40.vcproj", "{F0F5A0A4-DA6B-4EC6-826D-802B1230D6FA}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Plugins_Maya40", "Plugins\Plugins_Maya40.vcproj", "{8C18C2F2-E5AE-45DE-BC7D-EFD61721175C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Plugins_Maya50", "Plugins\Plugins_Maya50.vcproj", "{D3AEB67F-0440-4840-969B-840E0AD96DED}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Plugins_Maya60", "Plugins\Plugins_Maya60.vcproj", "{44A050DC-DD0D-4F41-BFFC-D2427138232B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Plugins_Maya45", "Plugins\Plugins_Maya45.vcproj", "{0CC88AA6-8111-4784-B910-EBB93BBD1953}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Plugins_Max60", "Plugins\Plugins_Max60.vcproj", "{7F765A07-016E-4C8E-BF3D-76F26D93A913}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Plugins_Max50", "Plugins\Plugins_Max50.vcproj", "{0EC450E8-1A01-4A4A-928F-5CD0BC6630F9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vcvars", "vcvars\vcvars.vcproj", "{908F401E-1F94-4424-BF35-2397AEA1799C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DtxShellEx", "DtxShellEx\DtxShellEx.vcproj", "{6014514A-F474-4D99-BEFE-CB699BDE2923}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1B1401D4-CC33-4113-B220-73146A036DB7} = {1B1401D4-CC33-4113-B220-73146A036DB7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DtxView", "DtxView\DtxView.vcproj", "{0B2BB04C-2A31-4F99-A025-57C1987EE867}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1B1401D4-CC33-4113-B220-73146A036DB7} = {1B1401D4-CC33-4113-B220-73146A036DB7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Plugins_Maya65", "Plugins\Plugins_Maya65.vcproj", "{85DA6C50-F652-42B3-9833-2AE501ECD330}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Plugins_Max70", "Plugins\Plugins_Max70.vcproj", "{A4EE306B-28AB-4056-A88D-2597F0E82FF3}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Plugins_Maya70", "Plugins\Plugins_Maya70.vcproj", "{F58E27EA-DC85-4631-A1EE-1E157A88E5EF}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DtxOptimizer", "DtxOptimizer\DtxOptimizer.vcproj", "{A87C7CEB-F5BE-4557-94B3-9E639FB971B8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1B1401D4-CC33-4113-B220-73146A036DB7} = {1B1401D4-CC33-4113-B220-73146A036DB7}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Debug MFC DLL = Debug MFC DLL
+		Final = Final
+		Final MFC DLL = Final MFC DLL
+		Release = Release
+		Release MFC DLL = Release MFC DLL
+		Release Public Development = Release Public Development
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{CDF189C8-F63C-4B4B-9050-634535DA1A7D}.Debug.ActiveCfg = Debug|Win32
+		{CDF189C8-F63C-4B4B-9050-634535DA1A7D}.Debug.Build.0 = Debug|Win32
+		{CDF189C8-F63C-4B4B-9050-634535DA1A7D}.Debug MFC DLL.ActiveCfg = Debug MFC DLL|Win32
+		{CDF189C8-F63C-4B4B-9050-634535DA1A7D}.Debug MFC DLL.Build.0 = Debug MFC DLL|Win32
+		{CDF189C8-F63C-4B4B-9050-634535DA1A7D}.Final.ActiveCfg = Final|Win32
+		{CDF189C8-F63C-4B4B-9050-634535DA1A7D}.Final.Build.0 = Final|Win32
+		{CDF189C8-F63C-4B4B-9050-634535DA1A7D}.Final MFC DLL.ActiveCfg = Final MFC DLL|Win32
+		{CDF189C8-F63C-4B4B-9050-634535DA1A7D}.Final MFC DLL.Build.0 = Final MFC DLL|Win32
+		{CDF189C8-F63C-4B4B-9050-634535DA1A7D}.Release.ActiveCfg = Release|Win32
+		{CDF189C8-F63C-4B4B-9050-634535DA1A7D}.Release.Build.0 = Release|Win32
+		{CDF189C8-F63C-4B4B-9050-634535DA1A7D}.Release MFC DLL.ActiveCfg = Release MFC DLL|Win32
+		{CDF189C8-F63C-4B4B-9050-634535DA1A7D}.Release MFC DLL.Build.0 = Release MFC DLL|Win32
+		{CDF189C8-F63C-4B4B-9050-634535DA1A7D}.Release Public Development.ActiveCfg = Release MFC DLL|Win32
+		{CDF189C8-F63C-4B4B-9050-634535DA1A7D}.Release Public Development.Build.0 = Release MFC DLL|Win32
+		{F79E8505-80D8-4940-BE6C-24A6CC13DBA4}.Debug.ActiveCfg = Debug|Win32
+		{F79E8505-80D8-4940-BE6C-24A6CC13DBA4}.Debug.Build.0 = Debug|Win32
+		{F79E8505-80D8-4940-BE6C-24A6CC13DBA4}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{F79E8505-80D8-4940-BE6C-24A6CC13DBA4}.Debug MFC DLL.Build.0 = Debug|Win32
+		{F79E8505-80D8-4940-BE6C-24A6CC13DBA4}.Final.ActiveCfg = Release|Win32
+		{F79E8505-80D8-4940-BE6C-24A6CC13DBA4}.Final.Build.0 = Release|Win32
+		{F79E8505-80D8-4940-BE6C-24A6CC13DBA4}.Final MFC DLL.ActiveCfg = Release|Win32
+		{F79E8505-80D8-4940-BE6C-24A6CC13DBA4}.Final MFC DLL.Build.0 = Release|Win32
+		{F79E8505-80D8-4940-BE6C-24A6CC13DBA4}.Release.ActiveCfg = Release|Win32
+		{F79E8505-80D8-4940-BE6C-24A6CC13DBA4}.Release.Build.0 = Release|Win32
+		{F79E8505-80D8-4940-BE6C-24A6CC13DBA4}.Release MFC DLL.ActiveCfg = Release|Win32
+		{F79E8505-80D8-4940-BE6C-24A6CC13DBA4}.Release MFC DLL.Build.0 = Release|Win32
+		{F79E8505-80D8-4940-BE6C-24A6CC13DBA4}.Release Public Development.ActiveCfg = Release|Win32
+		{F79E8505-80D8-4940-BE6C-24A6CC13DBA4}.Release Public Development.Build.0 = Release|Win32
+		{4D71855A-6759-4D91-A3E5-C7B71A816477}.Debug.ActiveCfg = Debug|Win32
+		{4D71855A-6759-4D91-A3E5-C7B71A816477}.Debug.Build.0 = Debug|Win32
+		{4D71855A-6759-4D91-A3E5-C7B71A816477}.Debug MFC DLL.ActiveCfg = Debug MFC DLL|Win32
+		{4D71855A-6759-4D91-A3E5-C7B71A816477}.Debug MFC DLL.Build.0 = Debug MFC DLL|Win32
+		{4D71855A-6759-4D91-A3E5-C7B71A816477}.Final.ActiveCfg = Final|Win32
+		{4D71855A-6759-4D91-A3E5-C7B71A816477}.Final.Build.0 = Final|Win32
+		{4D71855A-6759-4D91-A3E5-C7B71A816477}.Final MFC DLL.ActiveCfg = Final MFC DLL|Win32
+		{4D71855A-6759-4D91-A3E5-C7B71A816477}.Final MFC DLL.Build.0 = Final MFC DLL|Win32
+		{4D71855A-6759-4D91-A3E5-C7B71A816477}.Release.ActiveCfg = Release|Win32
+		{4D71855A-6759-4D91-A3E5-C7B71A816477}.Release.Build.0 = Release|Win32
+		{4D71855A-6759-4D91-A3E5-C7B71A816477}.Release MFC DLL.ActiveCfg = Release MFC DLL|Win32
+		{4D71855A-6759-4D91-A3E5-C7B71A816477}.Release MFC DLL.Build.0 = Release MFC DLL|Win32
+		{4D71855A-6759-4D91-A3E5-C7B71A816477}.Release Public Development.ActiveCfg = Release|Win32
+		{4D71855A-6759-4D91-A3E5-C7B71A816477}.Release Public Development.Build.0 = Release|Win32
+		{A0BA00E5-D661-49B6-B1F0-C595185CF954}.Debug.ActiveCfg = Debug|Win32
+		{A0BA00E5-D661-49B6-B1F0-C595185CF954}.Debug.Build.0 = Debug|Win32
+		{A0BA00E5-D661-49B6-B1F0-C595185CF954}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{A0BA00E5-D661-49B6-B1F0-C595185CF954}.Debug MFC DLL.Build.0 = Debug|Win32
+		{A0BA00E5-D661-49B6-B1F0-C595185CF954}.Final.ActiveCfg = Release|Win32
+		{A0BA00E5-D661-49B6-B1F0-C595185CF954}.Final.Build.0 = Release|Win32
+		{A0BA00E5-D661-49B6-B1F0-C595185CF954}.Final MFC DLL.ActiveCfg = Final|Win32
+		{A0BA00E5-D661-49B6-B1F0-C595185CF954}.Final MFC DLL.Build.0 = Final|Win32
+		{A0BA00E5-D661-49B6-B1F0-C595185CF954}.Release.ActiveCfg = Release|Win32
+		{A0BA00E5-D661-49B6-B1F0-C595185CF954}.Release.Build.0 = Release|Win32
+		{A0BA00E5-D661-49B6-B1F0-C595185CF954}.Release MFC DLL.ActiveCfg = Release|Win32
+		{A0BA00E5-D661-49B6-B1F0-C595185CF954}.Release MFC DLL.Build.0 = Release|Win32
+		{A0BA00E5-D661-49B6-B1F0-C595185CF954}.Release Public Development.ActiveCfg = Release|Win32
+		{A0BA00E5-D661-49B6-B1F0-C595185CF954}.Release Public Development.Build.0 = Release|Win32
+		{784F6D25-4289-4460-B82D-83A59E81D53C}.Debug.ActiveCfg = Debug|Win32
+		{784F6D25-4289-4460-B82D-83A59E81D53C}.Debug.Build.0 = Debug|Win32
+		{784F6D25-4289-4460-B82D-83A59E81D53C}.Debug MFC DLL.ActiveCfg = Debug MFC DLL|Win32
+		{784F6D25-4289-4460-B82D-83A59E81D53C}.Debug MFC DLL.Build.0 = Debug MFC DLL|Win32
+		{784F6D25-4289-4460-B82D-83A59E81D53C}.Final.ActiveCfg = Release|Win32
+		{784F6D25-4289-4460-B82D-83A59E81D53C}.Final.Build.0 = Release|Win32
+		{784F6D25-4289-4460-B82D-83A59E81D53C}.Final MFC DLL.ActiveCfg = Release MFC DLL|Win32
+		{784F6D25-4289-4460-B82D-83A59E81D53C}.Final MFC DLL.Build.0 = Release MFC DLL|Win32
+		{784F6D25-4289-4460-B82D-83A59E81D53C}.Release.ActiveCfg = Release|Win32
+		{784F6D25-4289-4460-B82D-83A59E81D53C}.Release.Build.0 = Release|Win32
+		{784F6D25-4289-4460-B82D-83A59E81D53C}.Release MFC DLL.ActiveCfg = Release MFC DLL|Win32
+		{784F6D25-4289-4460-B82D-83A59E81D53C}.Release MFC DLL.Build.0 = Release MFC DLL|Win32
+		{784F6D25-4289-4460-B82D-83A59E81D53C}.Release Public Development.ActiveCfg = Release|Win32
+		{784F6D25-4289-4460-B82D-83A59E81D53C}.Release Public Development.Build.0 = Release|Win32
+		{60C8731A-316E-42C5-9B1C-DAF207F3698B}.Debug.ActiveCfg = Debug|Win32
+		{60C8731A-316E-42C5-9B1C-DAF207F3698B}.Debug.Build.0 = Debug|Win32
+		{60C8731A-316E-42C5-9B1C-DAF207F3698B}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{60C8731A-316E-42C5-9B1C-DAF207F3698B}.Debug MFC DLL.Build.0 = Debug|Win32
+		{60C8731A-316E-42C5-9B1C-DAF207F3698B}.Final.ActiveCfg = Release|Win32
+		{60C8731A-316E-42C5-9B1C-DAF207F3698B}.Final.Build.0 = Release|Win32
+		{60C8731A-316E-42C5-9B1C-DAF207F3698B}.Final MFC DLL.ActiveCfg = Release|Win32
+		{60C8731A-316E-42C5-9B1C-DAF207F3698B}.Final MFC DLL.Build.0 = Release|Win32
+		{60C8731A-316E-42C5-9B1C-DAF207F3698B}.Release.ActiveCfg = Release|Win32
+		{60C8731A-316E-42C5-9B1C-DAF207F3698B}.Release.Build.0 = Release|Win32
+		{60C8731A-316E-42C5-9B1C-DAF207F3698B}.Release MFC DLL.ActiveCfg = Release|Win32
+		{60C8731A-316E-42C5-9B1C-DAF207F3698B}.Release MFC DLL.Build.0 = Release|Win32
+		{60C8731A-316E-42C5-9B1C-DAF207F3698B}.Release Public Development.ActiveCfg = Release|Win32
+		{60C8731A-316E-42C5-9B1C-DAF207F3698B}.Release Public Development.Build.0 = Release|Win32
+		{F9387061-18E7-40A3-B0E4-9CEC2FABE7CF}.Debug.ActiveCfg = Debug|Win32
+		{F9387061-18E7-40A3-B0E4-9CEC2FABE7CF}.Debug.Build.0 = Debug|Win32
+		{F9387061-18E7-40A3-B0E4-9CEC2FABE7CF}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{F9387061-18E7-40A3-B0E4-9CEC2FABE7CF}.Debug MFC DLL.Build.0 = Debug|Win32
+		{F9387061-18E7-40A3-B0E4-9CEC2FABE7CF}.Final.ActiveCfg = Final|Win32
+		{F9387061-18E7-40A3-B0E4-9CEC2FABE7CF}.Final.Build.0 = Final|Win32
+		{F9387061-18E7-40A3-B0E4-9CEC2FABE7CF}.Final MFC DLL.ActiveCfg = Final|Win32
+		{F9387061-18E7-40A3-B0E4-9CEC2FABE7CF}.Final MFC DLL.Build.0 = Final|Win32
+		{F9387061-18E7-40A3-B0E4-9CEC2FABE7CF}.Release.ActiveCfg = Release|Win32
+		{F9387061-18E7-40A3-B0E4-9CEC2FABE7CF}.Release.Build.0 = Release|Win32
+		{F9387061-18E7-40A3-B0E4-9CEC2FABE7CF}.Release MFC DLL.ActiveCfg = Release|Win32
+		{F9387061-18E7-40A3-B0E4-9CEC2FABE7CF}.Release MFC DLL.Build.0 = Release|Win32
+		{F9387061-18E7-40A3-B0E4-9CEC2FABE7CF}.Release Public Development.ActiveCfg = Release|Win32
+		{F9387061-18E7-40A3-B0E4-9CEC2FABE7CF}.Release Public Development.Build.0 = Release|Win32
+		{6A124F5D-D9D0-49E2-B771-6CB6B8B1D1A3}.Debug.ActiveCfg = Debug|Win32
+		{6A124F5D-D9D0-49E2-B771-6CB6B8B1D1A3}.Debug.Build.0 = Debug|Win32
+		{6A124F5D-D9D0-49E2-B771-6CB6B8B1D1A3}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{6A124F5D-D9D0-49E2-B771-6CB6B8B1D1A3}.Debug MFC DLL.Build.0 = Debug|Win32
+		{6A124F5D-D9D0-49E2-B771-6CB6B8B1D1A3}.Final.ActiveCfg = Final|Win32
+		{6A124F5D-D9D0-49E2-B771-6CB6B8B1D1A3}.Final.Build.0 = Final|Win32
+		{6A124F5D-D9D0-49E2-B771-6CB6B8B1D1A3}.Final MFC DLL.ActiveCfg = Final|Win32
+		{6A124F5D-D9D0-49E2-B771-6CB6B8B1D1A3}.Final MFC DLL.Build.0 = Final|Win32
+		{6A124F5D-D9D0-49E2-B771-6CB6B8B1D1A3}.Release.ActiveCfg = Release|Win32
+		{6A124F5D-D9D0-49E2-B771-6CB6B8B1D1A3}.Release.Build.0 = Release|Win32
+		{6A124F5D-D9D0-49E2-B771-6CB6B8B1D1A3}.Release MFC DLL.ActiveCfg = Release|Win32
+		{6A124F5D-D9D0-49E2-B771-6CB6B8B1D1A3}.Release MFC DLL.Build.0 = Release|Win32
+		{6A124F5D-D9D0-49E2-B771-6CB6B8B1D1A3}.Release Public Development.ActiveCfg = Release|Win32
+		{6A124F5D-D9D0-49E2-B771-6CB6B8B1D1A3}.Release Public Development.Build.0 = Release|Win32
+		{7C961F0A-5C6F-42E5-93F8-91FEEACC8AD6}.Debug.ActiveCfg = Debug|Win32
+		{7C961F0A-5C6F-42E5-93F8-91FEEACC8AD6}.Debug.Build.0 = Debug|Win32
+		{7C961F0A-5C6F-42E5-93F8-91FEEACC8AD6}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{7C961F0A-5C6F-42E5-93F8-91FEEACC8AD6}.Debug MFC DLL.Build.0 = Debug|Win32
+		{7C961F0A-5C6F-42E5-93F8-91FEEACC8AD6}.Final.ActiveCfg = Final|Win32
+		{7C961F0A-5C6F-42E5-93F8-91FEEACC8AD6}.Final.Build.0 = Final|Win32
+		{7C961F0A-5C6F-42E5-93F8-91FEEACC8AD6}.Final MFC DLL.ActiveCfg = Final|Win32
+		{7C961F0A-5C6F-42E5-93F8-91FEEACC8AD6}.Final MFC DLL.Build.0 = Final|Win32
+		{7C961F0A-5C6F-42E5-93F8-91FEEACC8AD6}.Release.ActiveCfg = Release|Win32
+		{7C961F0A-5C6F-42E5-93F8-91FEEACC8AD6}.Release.Build.0 = Release|Win32
+		{7C961F0A-5C6F-42E5-93F8-91FEEACC8AD6}.Release MFC DLL.ActiveCfg = Release|Win32
+		{7C961F0A-5C6F-42E5-93F8-91FEEACC8AD6}.Release MFC DLL.Build.0 = Release|Win32
+		{7C961F0A-5C6F-42E5-93F8-91FEEACC8AD6}.Release Public Development.ActiveCfg = Release|Win32
+		{7C961F0A-5C6F-42E5-93F8-91FEEACC8AD6}.Release Public Development.Build.0 = Release|Win32
+		{1B1401D4-CC33-4113-B220-73146A036DB7}.Debug.ActiveCfg = Debug|Win32
+		{1B1401D4-CC33-4113-B220-73146A036DB7}.Debug.Build.0 = Debug|Win32
+		{1B1401D4-CC33-4113-B220-73146A036DB7}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{1B1401D4-CC33-4113-B220-73146A036DB7}.Debug MFC DLL.Build.0 = Debug|Win32
+		{1B1401D4-CC33-4113-B220-73146A036DB7}.Final.ActiveCfg = Final|Win32
+		{1B1401D4-CC33-4113-B220-73146A036DB7}.Final.Build.0 = Final|Win32
+		{1B1401D4-CC33-4113-B220-73146A036DB7}.Final MFC DLL.ActiveCfg = Final|Win32
+		{1B1401D4-CC33-4113-B220-73146A036DB7}.Final MFC DLL.Build.0 = Final|Win32
+		{1B1401D4-CC33-4113-B220-73146A036DB7}.Release.ActiveCfg = Release|Win32
+		{1B1401D4-CC33-4113-B220-73146A036DB7}.Release.Build.0 = Release|Win32
+		{1B1401D4-CC33-4113-B220-73146A036DB7}.Release MFC DLL.ActiveCfg = Release|Win32
+		{1B1401D4-CC33-4113-B220-73146A036DB7}.Release MFC DLL.Build.0 = Release|Win32
+		{1B1401D4-CC33-4113-B220-73146A036DB7}.Release Public Development.ActiveCfg = Release|Win32
+		{1B1401D4-CC33-4113-B220-73146A036DB7}.Release Public Development.Build.0 = Release|Win32
+		{9E355C8A-E922-42DE-9FBF-076DB71B7630}.Debug.ActiveCfg = Debug|Win32
+		{9E355C8A-E922-42DE-9FBF-076DB71B7630}.Debug.Build.0 = Debug|Win32
+		{9E355C8A-E922-42DE-9FBF-076DB71B7630}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{9E355C8A-E922-42DE-9FBF-076DB71B7630}.Debug MFC DLL.Build.0 = Debug|Win32
+		{9E355C8A-E922-42DE-9FBF-076DB71B7630}.Final.ActiveCfg = Final|Win32
+		{9E355C8A-E922-42DE-9FBF-076DB71B7630}.Final.Build.0 = Final|Win32
+		{9E355C8A-E922-42DE-9FBF-076DB71B7630}.Final MFC DLL.ActiveCfg = Final|Win32
+		{9E355C8A-E922-42DE-9FBF-076DB71B7630}.Final MFC DLL.Build.0 = Final|Win32
+		{9E355C8A-E922-42DE-9FBF-076DB71B7630}.Release.ActiveCfg = Release|Win32
+		{9E355C8A-E922-42DE-9FBF-076DB71B7630}.Release.Build.0 = Release|Win32
+		{9E355C8A-E922-42DE-9FBF-076DB71B7630}.Release MFC DLL.ActiveCfg = Release|Win32
+		{9E355C8A-E922-42DE-9FBF-076DB71B7630}.Release MFC DLL.Build.0 = Release|Win32
+		{9E355C8A-E922-42DE-9FBF-076DB71B7630}.Release Public Development.ActiveCfg = Release|Win32
+		{9E355C8A-E922-42DE-9FBF-076DB71B7630}.Release Public Development.Build.0 = Release|Win32
+		{718F7FCE-F855-4BE4-8E85-D4DAF492A15D}.Debug.ActiveCfg = Debug|Win32
+		{718F7FCE-F855-4BE4-8E85-D4DAF492A15D}.Debug.Build.0 = Debug|Win32
+		{718F7FCE-F855-4BE4-8E85-D4DAF492A15D}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{718F7FCE-F855-4BE4-8E85-D4DAF492A15D}.Debug MFC DLL.Build.0 = Debug|Win32
+		{718F7FCE-F855-4BE4-8E85-D4DAF492A15D}.Final.ActiveCfg = Release|Win32
+		{718F7FCE-F855-4BE4-8E85-D4DAF492A15D}.Final.Build.0 = Release|Win32
+		{718F7FCE-F855-4BE4-8E85-D4DAF492A15D}.Final MFC DLL.ActiveCfg = Final|Win32
+		{718F7FCE-F855-4BE4-8E85-D4DAF492A15D}.Final MFC DLL.Build.0 = Final|Win32
+		{718F7FCE-F855-4BE4-8E85-D4DAF492A15D}.Release.ActiveCfg = Release|Win32
+		{718F7FCE-F855-4BE4-8E85-D4DAF492A15D}.Release.Build.0 = Release|Win32
+		{718F7FCE-F855-4BE4-8E85-D4DAF492A15D}.Release MFC DLL.ActiveCfg = Release|Win32
+		{718F7FCE-F855-4BE4-8E85-D4DAF492A15D}.Release MFC DLL.Build.0 = Release|Win32
+		{718F7FCE-F855-4BE4-8E85-D4DAF492A15D}.Release Public Development.ActiveCfg = Release|Win32
+		{718F7FCE-F855-4BE4-8E85-D4DAF492A15D}.Release Public Development.Build.0 = Release|Win32
+		{018E8B44-4293-40EE-9B3F-7F8C57688251}.Debug.ActiveCfg = Debug|Win32
+		{018E8B44-4293-40EE-9B3F-7F8C57688251}.Debug.Build.0 = Debug|Win32
+		{018E8B44-4293-40EE-9B3F-7F8C57688251}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{018E8B44-4293-40EE-9B3F-7F8C57688251}.Debug MFC DLL.Build.0 = Debug|Win32
+		{018E8B44-4293-40EE-9B3F-7F8C57688251}.Final.ActiveCfg = Final|Win32
+		{018E8B44-4293-40EE-9B3F-7F8C57688251}.Final.Build.0 = Final|Win32
+		{018E8B44-4293-40EE-9B3F-7F8C57688251}.Final MFC DLL.ActiveCfg = Final|Win32
+		{018E8B44-4293-40EE-9B3F-7F8C57688251}.Final MFC DLL.Build.0 = Final|Win32
+		{018E8B44-4293-40EE-9B3F-7F8C57688251}.Release.ActiveCfg = Release|Win32
+		{018E8B44-4293-40EE-9B3F-7F8C57688251}.Release.Build.0 = Release|Win32
+		{018E8B44-4293-40EE-9B3F-7F8C57688251}.Release MFC DLL.ActiveCfg = Release|Win32
+		{018E8B44-4293-40EE-9B3F-7F8C57688251}.Release MFC DLL.Build.0 = Release|Win32
+		{018E8B44-4293-40EE-9B3F-7F8C57688251}.Release Public Development.ActiveCfg = Release|Win32
+		{018E8B44-4293-40EE-9B3F-7F8C57688251}.Release Public Development.Build.0 = Release|Win32
+		{9DB3ED68-E606-43FD-9522-9BCBF663A7B2}.Debug.ActiveCfg = Debug|Win32
+		{9DB3ED68-E606-43FD-9522-9BCBF663A7B2}.Debug.Build.0 = Debug|Win32
+		{9DB3ED68-E606-43FD-9522-9BCBF663A7B2}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{9DB3ED68-E606-43FD-9522-9BCBF663A7B2}.Debug MFC DLL.Build.0 = Debug|Win32
+		{9DB3ED68-E606-43FD-9522-9BCBF663A7B2}.Final.ActiveCfg = Release|Win32
+		{9DB3ED68-E606-43FD-9522-9BCBF663A7B2}.Final.Build.0 = Release|Win32
+		{9DB3ED68-E606-43FD-9522-9BCBF663A7B2}.Final MFC DLL.ActiveCfg = Release|Win32
+		{9DB3ED68-E606-43FD-9522-9BCBF663A7B2}.Final MFC DLL.Build.0 = Release|Win32
+		{9DB3ED68-E606-43FD-9522-9BCBF663A7B2}.Release.ActiveCfg = Release|Win32
+		{9DB3ED68-E606-43FD-9522-9BCBF663A7B2}.Release.Build.0 = Release|Win32
+		{9DB3ED68-E606-43FD-9522-9BCBF663A7B2}.Release MFC DLL.ActiveCfg = Release Public Development|Win32
+		{9DB3ED68-E606-43FD-9522-9BCBF663A7B2}.Release MFC DLL.Build.0 = Release Public Development|Win32
+		{9DB3ED68-E606-43FD-9522-9BCBF663A7B2}.Release Public Development.ActiveCfg = Release Public Development|Win32
+		{9DB3ED68-E606-43FD-9522-9BCBF663A7B2}.Release Public Development.Build.0 = Release Public Development|Win32
+		{E5B10440-E2BE-4C57-A831-CB43A010160E}.Debug.ActiveCfg = Debug|Win32
+		{E5B10440-E2BE-4C57-A831-CB43A010160E}.Debug.Build.0 = Debug|Win32
+		{E5B10440-E2BE-4C57-A831-CB43A010160E}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{E5B10440-E2BE-4C57-A831-CB43A010160E}.Debug MFC DLL.Build.0 = Debug|Win32
+		{E5B10440-E2BE-4C57-A831-CB43A010160E}.Final.ActiveCfg = Release|Win32
+		{E5B10440-E2BE-4C57-A831-CB43A010160E}.Final.Build.0 = Release|Win32
+		{E5B10440-E2BE-4C57-A831-CB43A010160E}.Final MFC DLL.ActiveCfg = Release|Win32
+		{E5B10440-E2BE-4C57-A831-CB43A010160E}.Final MFC DLL.Build.0 = Release|Win32
+		{E5B10440-E2BE-4C57-A831-CB43A010160E}.Release.ActiveCfg = Release|Win32
+		{E5B10440-E2BE-4C57-A831-CB43A010160E}.Release.Build.0 = Release|Win32
+		{E5B10440-E2BE-4C57-A831-CB43A010160E}.Release MFC DLL.ActiveCfg = Release|Win32
+		{E5B10440-E2BE-4C57-A831-CB43A010160E}.Release MFC DLL.Build.0 = Release|Win32
+		{E5B10440-E2BE-4C57-A831-CB43A010160E}.Release Public Development.ActiveCfg = Release|Win32
+		{E5B10440-E2BE-4C57-A831-CB43A010160E}.Release Public Development.Build.0 = Release|Win32
+		{887B197D-1EFF-430B-BEBA-E54D140C2F18}.Debug.ActiveCfg = Debug|Win32
+		{887B197D-1EFF-430B-BEBA-E54D140C2F18}.Debug.Build.0 = Debug|Win32
+		{887B197D-1EFF-430B-BEBA-E54D140C2F18}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{887B197D-1EFF-430B-BEBA-E54D140C2F18}.Debug MFC DLL.Build.0 = Debug|Win32
+		{887B197D-1EFF-430B-BEBA-E54D140C2F18}.Final.ActiveCfg = Release|Win32
+		{887B197D-1EFF-430B-BEBA-E54D140C2F18}.Final.Build.0 = Release|Win32
+		{887B197D-1EFF-430B-BEBA-E54D140C2F18}.Final MFC DLL.ActiveCfg = Release|Win32
+		{887B197D-1EFF-430B-BEBA-E54D140C2F18}.Final MFC DLL.Build.0 = Release|Win32
+		{887B197D-1EFF-430B-BEBA-E54D140C2F18}.Release.ActiveCfg = Release|Win32
+		{887B197D-1EFF-430B-BEBA-E54D140C2F18}.Release.Build.0 = Release|Win32
+		{887B197D-1EFF-430B-BEBA-E54D140C2F18}.Release MFC DLL.ActiveCfg = Release|Win32
+		{887B197D-1EFF-430B-BEBA-E54D140C2F18}.Release MFC DLL.Build.0 = Release|Win32
+		{887B197D-1EFF-430B-BEBA-E54D140C2F18}.Release Public Development.ActiveCfg = Release|Win32
+		{887B197D-1EFF-430B-BEBA-E54D140C2F18}.Release Public Development.Build.0 = Release|Win32
+		{7119684A-8CB3-4A6A-BE97-216C14AE6321}.Debug.ActiveCfg = Debug|Win32
+		{7119684A-8CB3-4A6A-BE97-216C14AE6321}.Debug.Build.0 = Debug|Win32
+		{7119684A-8CB3-4A6A-BE97-216C14AE6321}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{7119684A-8CB3-4A6A-BE97-216C14AE6321}.Debug MFC DLL.Build.0 = Debug|Win32
+		{7119684A-8CB3-4A6A-BE97-216C14AE6321}.Final.ActiveCfg = Release|Win32
+		{7119684A-8CB3-4A6A-BE97-216C14AE6321}.Final.Build.0 = Release|Win32
+		{7119684A-8CB3-4A6A-BE97-216C14AE6321}.Final MFC DLL.ActiveCfg = Release|Win32
+		{7119684A-8CB3-4A6A-BE97-216C14AE6321}.Final MFC DLL.Build.0 = Release|Win32
+		{7119684A-8CB3-4A6A-BE97-216C14AE6321}.Release.ActiveCfg = Release|Win32
+		{7119684A-8CB3-4A6A-BE97-216C14AE6321}.Release.Build.0 = Release|Win32
+		{7119684A-8CB3-4A6A-BE97-216C14AE6321}.Release MFC DLL.ActiveCfg = Release|Win32
+		{7119684A-8CB3-4A6A-BE97-216C14AE6321}.Release MFC DLL.Build.0 = Release|Win32
+		{7119684A-8CB3-4A6A-BE97-216C14AE6321}.Release Public Development.ActiveCfg = Release|Win32
+		{7119684A-8CB3-4A6A-BE97-216C14AE6321}.Release Public Development.Build.0 = Release|Win32
+		{C19CF331-A8EA-4920-AA8F-FFCE376329DF}.Debug.ActiveCfg = Debug|Win32
+		{C19CF331-A8EA-4920-AA8F-FFCE376329DF}.Debug.Build.0 = Debug|Win32
+		{C19CF331-A8EA-4920-AA8F-FFCE376329DF}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{C19CF331-A8EA-4920-AA8F-FFCE376329DF}.Debug MFC DLL.Build.0 = Debug|Win32
+		{C19CF331-A8EA-4920-AA8F-FFCE376329DF}.Final.ActiveCfg = Release|Win32
+		{C19CF331-A8EA-4920-AA8F-FFCE376329DF}.Final.Build.0 = Release|Win32
+		{C19CF331-A8EA-4920-AA8F-FFCE376329DF}.Final MFC DLL.ActiveCfg = Release|Win32
+		{C19CF331-A8EA-4920-AA8F-FFCE376329DF}.Final MFC DLL.Build.0 = Release|Win32
+		{C19CF331-A8EA-4920-AA8F-FFCE376329DF}.Release.ActiveCfg = Release|Win32
+		{C19CF331-A8EA-4920-AA8F-FFCE376329DF}.Release.Build.0 = Release|Win32
+		{C19CF331-A8EA-4920-AA8F-FFCE376329DF}.Release MFC DLL.ActiveCfg = Release|Win32
+		{C19CF331-A8EA-4920-AA8F-FFCE376329DF}.Release MFC DLL.Build.0 = Release|Win32
+		{C19CF331-A8EA-4920-AA8F-FFCE376329DF}.Release Public Development.ActiveCfg = Release|Win32
+		{C19CF331-A8EA-4920-AA8F-FFCE376329DF}.Release Public Development.Build.0 = Release|Win32
+		{822DC024-8B62-415D-8C0D-5713229AFFFC}.Debug.ActiveCfg = Debug|Win32
+		{822DC024-8B62-415D-8C0D-5713229AFFFC}.Debug.Build.0 = Debug|Win32
+		{822DC024-8B62-415D-8C0D-5713229AFFFC}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{822DC024-8B62-415D-8C0D-5713229AFFFC}.Debug MFC DLL.Build.0 = Debug|Win32
+		{822DC024-8B62-415D-8C0D-5713229AFFFC}.Final.ActiveCfg = Release|Win32
+		{822DC024-8B62-415D-8C0D-5713229AFFFC}.Final.Build.0 = Release|Win32
+		{822DC024-8B62-415D-8C0D-5713229AFFFC}.Final MFC DLL.ActiveCfg = Release|Win32
+		{822DC024-8B62-415D-8C0D-5713229AFFFC}.Final MFC DLL.Build.0 = Release|Win32
+		{822DC024-8B62-415D-8C0D-5713229AFFFC}.Release.ActiveCfg = Release|Win32
+		{822DC024-8B62-415D-8C0D-5713229AFFFC}.Release.Build.0 = Release|Win32
+		{822DC024-8B62-415D-8C0D-5713229AFFFC}.Release MFC DLL.ActiveCfg = Release|Win32
+		{822DC024-8B62-415D-8C0D-5713229AFFFC}.Release MFC DLL.Build.0 = Release|Win32
+		{822DC024-8B62-415D-8C0D-5713229AFFFC}.Release Public Development.ActiveCfg = Release|Win32
+		{822DC024-8B62-415D-8C0D-5713229AFFFC}.Release Public Development.Build.0 = Release|Win32
+		{52F03BD0-4841-4C3A-ADCA-C4F917266246}.Debug.ActiveCfg = Debug|Win32
+		{52F03BD0-4841-4C3A-ADCA-C4F917266246}.Debug.Build.0 = Debug|Win32
+		{52F03BD0-4841-4C3A-ADCA-C4F917266246}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{52F03BD0-4841-4C3A-ADCA-C4F917266246}.Debug MFC DLL.Build.0 = Debug|Win32
+		{52F03BD0-4841-4C3A-ADCA-C4F917266246}.Final.ActiveCfg = Release|Win32
+		{52F03BD0-4841-4C3A-ADCA-C4F917266246}.Final.Build.0 = Release|Win32
+		{52F03BD0-4841-4C3A-ADCA-C4F917266246}.Final MFC DLL.ActiveCfg = Release|Win32
+		{52F03BD0-4841-4C3A-ADCA-C4F917266246}.Final MFC DLL.Build.0 = Release|Win32
+		{52F03BD0-4841-4C3A-ADCA-C4F917266246}.Release.ActiveCfg = Release|Win32
+		{52F03BD0-4841-4C3A-ADCA-C4F917266246}.Release.Build.0 = Release|Win32
+		{52F03BD0-4841-4C3A-ADCA-C4F917266246}.Release MFC DLL.ActiveCfg = Release|Win32
+		{52F03BD0-4841-4C3A-ADCA-C4F917266246}.Release MFC DLL.Build.0 = Release|Win32
+		{52F03BD0-4841-4C3A-ADCA-C4F917266246}.Release Public Development.ActiveCfg = Release|Win32
+		{52F03BD0-4841-4C3A-ADCA-C4F917266246}.Release Public Development.Build.0 = Release|Win32
+		{4DB9CAEF-6B62-4A5D-BEBB-0F593A80F844}.Debug.ActiveCfg = Debug|Win32
+		{4DB9CAEF-6B62-4A5D-BEBB-0F593A80F844}.Debug.Build.0 = Debug|Win32
+		{4DB9CAEF-6B62-4A5D-BEBB-0F593A80F844}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{4DB9CAEF-6B62-4A5D-BEBB-0F593A80F844}.Debug MFC DLL.Build.0 = Debug|Win32
+		{4DB9CAEF-6B62-4A5D-BEBB-0F593A80F844}.Final.ActiveCfg = Release|Win32
+		{4DB9CAEF-6B62-4A5D-BEBB-0F593A80F844}.Final.Build.0 = Release|Win32
+		{4DB9CAEF-6B62-4A5D-BEBB-0F593A80F844}.Final MFC DLL.ActiveCfg = Release|Win32
+		{4DB9CAEF-6B62-4A5D-BEBB-0F593A80F844}.Final MFC DLL.Build.0 = Release|Win32
+		{4DB9CAEF-6B62-4A5D-BEBB-0F593A80F844}.Release.ActiveCfg = Release|Win32
+		{4DB9CAEF-6B62-4A5D-BEBB-0F593A80F844}.Release.Build.0 = Release|Win32
+		{4DB9CAEF-6B62-4A5D-BEBB-0F593A80F844}.Release MFC DLL.ActiveCfg = Release|Win32
+		{4DB9CAEF-6B62-4A5D-BEBB-0F593A80F844}.Release MFC DLL.Build.0 = Release|Win32
+		{4DB9CAEF-6B62-4A5D-BEBB-0F593A80F844}.Release Public Development.ActiveCfg = Release|Win32
+		{4DB9CAEF-6B62-4A5D-BEBB-0F593A80F844}.Release Public Development.Build.0 = Release|Win32
+		{AA5A393E-D882-45C0-989D-DFC13FC9D409}.Debug.ActiveCfg = Debug|Win32
+		{AA5A393E-D882-45C0-989D-DFC13FC9D409}.Debug.Build.0 = Debug|Win32
+		{AA5A393E-D882-45C0-989D-DFC13FC9D409}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{AA5A393E-D882-45C0-989D-DFC13FC9D409}.Debug MFC DLL.Build.0 = Debug|Win32
+		{AA5A393E-D882-45C0-989D-DFC13FC9D409}.Final.ActiveCfg = Release|Win32
+		{AA5A393E-D882-45C0-989D-DFC13FC9D409}.Final.Build.0 = Release|Win32
+		{AA5A393E-D882-45C0-989D-DFC13FC9D409}.Final MFC DLL.ActiveCfg = Release|Win32
+		{AA5A393E-D882-45C0-989D-DFC13FC9D409}.Final MFC DLL.Build.0 = Release|Win32
+		{AA5A393E-D882-45C0-989D-DFC13FC9D409}.Release.ActiveCfg = Release|Win32
+		{AA5A393E-D882-45C0-989D-DFC13FC9D409}.Release.Build.0 = Release|Win32
+		{AA5A393E-D882-45C0-989D-DFC13FC9D409}.Release MFC DLL.ActiveCfg = Release|Win32
+		{AA5A393E-D882-45C0-989D-DFC13FC9D409}.Release MFC DLL.Build.0 = Release|Win32
+		{AA5A393E-D882-45C0-989D-DFC13FC9D409}.Release Public Development.ActiveCfg = Release|Win32
+		{AA5A393E-D882-45C0-989D-DFC13FC9D409}.Release Public Development.Build.0 = Release|Win32
+		{6F544761-3EAD-4FE0-AE88-0C4B097B3866}.Debug.ActiveCfg = Debug|Win32
+		{6F544761-3EAD-4FE0-AE88-0C4B097B3866}.Debug.Build.0 = Debug|Win32
+		{6F544761-3EAD-4FE0-AE88-0C4B097B3866}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{6F544761-3EAD-4FE0-AE88-0C4B097B3866}.Debug MFC DLL.Build.0 = Debug|Win32
+		{6F544761-3EAD-4FE0-AE88-0C4B097B3866}.Final.ActiveCfg = Release|Win32
+		{6F544761-3EAD-4FE0-AE88-0C4B097B3866}.Final.Build.0 = Release|Win32
+		{6F544761-3EAD-4FE0-AE88-0C4B097B3866}.Final MFC DLL.ActiveCfg = Release|Win32
+		{6F544761-3EAD-4FE0-AE88-0C4B097B3866}.Final MFC DLL.Build.0 = Release|Win32
+		{6F544761-3EAD-4FE0-AE88-0C4B097B3866}.Release.ActiveCfg = Release|Win32
+		{6F544761-3EAD-4FE0-AE88-0C4B097B3866}.Release.Build.0 = Release|Win32
+		{6F544761-3EAD-4FE0-AE88-0C4B097B3866}.Release MFC DLL.ActiveCfg = Release|Win32
+		{6F544761-3EAD-4FE0-AE88-0C4B097B3866}.Release MFC DLL.Build.0 = Release|Win32
+		{6F544761-3EAD-4FE0-AE88-0C4B097B3866}.Release Public Development.ActiveCfg = Release|Win32
+		{6F544761-3EAD-4FE0-AE88-0C4B097B3866}.Release Public Development.Build.0 = Release|Win32
+		{5959BDBC-76E9-4D31-8D6A-E9D9996879AC}.Debug.ActiveCfg = Debug|Win32
+		{5959BDBC-76E9-4D31-8D6A-E9D9996879AC}.Debug.Build.0 = Debug|Win32
+		{5959BDBC-76E9-4D31-8D6A-E9D9996879AC}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{5959BDBC-76E9-4D31-8D6A-E9D9996879AC}.Debug MFC DLL.Build.0 = Debug|Win32
+		{5959BDBC-76E9-4D31-8D6A-E9D9996879AC}.Final.ActiveCfg = Release|Win32
+		{5959BDBC-76E9-4D31-8D6A-E9D9996879AC}.Final.Build.0 = Release|Win32
+		{5959BDBC-76E9-4D31-8D6A-E9D9996879AC}.Final MFC DLL.ActiveCfg = Release|Win32
+		{5959BDBC-76E9-4D31-8D6A-E9D9996879AC}.Final MFC DLL.Build.0 = Release|Win32
+		{5959BDBC-76E9-4D31-8D6A-E9D9996879AC}.Release.ActiveCfg = Release|Win32
+		{5959BDBC-76E9-4D31-8D6A-E9D9996879AC}.Release.Build.0 = Release|Win32
+		{5959BDBC-76E9-4D31-8D6A-E9D9996879AC}.Release MFC DLL.ActiveCfg = Release|Win32
+		{5959BDBC-76E9-4D31-8D6A-E9D9996879AC}.Release MFC DLL.Build.0 = Release|Win32
+		{5959BDBC-76E9-4D31-8D6A-E9D9996879AC}.Release Public Development.ActiveCfg = Release|Win32
+		{5959BDBC-76E9-4D31-8D6A-E9D9996879AC}.Release Public Development.Build.0 = Release|Win32
+		{466C886A-75A6-4947-8C6D-82C4B75647D9}.Debug.ActiveCfg = Debug|Win32
+		{466C886A-75A6-4947-8C6D-82C4B75647D9}.Debug.Build.0 = Debug|Win32
+		{466C886A-75A6-4947-8C6D-82C4B75647D9}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{466C886A-75A6-4947-8C6D-82C4B75647D9}.Debug MFC DLL.Build.0 = Debug|Win32
+		{466C886A-75A6-4947-8C6D-82C4B75647D9}.Final.ActiveCfg = Release|Win32
+		{466C886A-75A6-4947-8C6D-82C4B75647D9}.Final.Build.0 = Release|Win32
+		{466C886A-75A6-4947-8C6D-82C4B75647D9}.Final MFC DLL.ActiveCfg = Release|Win32
+		{466C886A-75A6-4947-8C6D-82C4B75647D9}.Final MFC DLL.Build.0 = Release|Win32
+		{466C886A-75A6-4947-8C6D-82C4B75647D9}.Release.ActiveCfg = Release|Win32
+		{466C886A-75A6-4947-8C6D-82C4B75647D9}.Release.Build.0 = Release|Win32
+		{466C886A-75A6-4947-8C6D-82C4B75647D9}.Release MFC DLL.ActiveCfg = Release|Win32
+		{466C886A-75A6-4947-8C6D-82C4B75647D9}.Release MFC DLL.Build.0 = Release|Win32
+		{466C886A-75A6-4947-8C6D-82C4B75647D9}.Release Public Development.ActiveCfg = Release|Win32
+		{466C886A-75A6-4947-8C6D-82C4B75647D9}.Release Public Development.Build.0 = Release|Win32
+		{7DECF6FF-2615-446A-B084-02DD7AF26360}.Debug.ActiveCfg = Debug|Win32
+		{7DECF6FF-2615-446A-B084-02DD7AF26360}.Debug.Build.0 = Debug|Win32
+		{7DECF6FF-2615-446A-B084-02DD7AF26360}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{7DECF6FF-2615-446A-B084-02DD7AF26360}.Debug MFC DLL.Build.0 = Debug|Win32
+		{7DECF6FF-2615-446A-B084-02DD7AF26360}.Final.ActiveCfg = Release|Win32
+		{7DECF6FF-2615-446A-B084-02DD7AF26360}.Final.Build.0 = Release|Win32
+		{7DECF6FF-2615-446A-B084-02DD7AF26360}.Final MFC DLL.ActiveCfg = Release|Win32
+		{7DECF6FF-2615-446A-B084-02DD7AF26360}.Final MFC DLL.Build.0 = Release|Win32
+		{7DECF6FF-2615-446A-B084-02DD7AF26360}.Release.ActiveCfg = Release|Win32
+		{7DECF6FF-2615-446A-B084-02DD7AF26360}.Release.Build.0 = Release|Win32
+		{7DECF6FF-2615-446A-B084-02DD7AF26360}.Release MFC DLL.ActiveCfg = Release|Win32
+		{7DECF6FF-2615-446A-B084-02DD7AF26360}.Release MFC DLL.Build.0 = Release|Win32
+		{7DECF6FF-2615-446A-B084-02DD7AF26360}.Release Public Development.ActiveCfg = Release|Win32
+		{7DECF6FF-2615-446A-B084-02DD7AF26360}.Release Public Development.Build.0 = Release|Win32
+		{344D5C46-7781-47A8-8BDE-95EE4E7D11F6}.Debug.ActiveCfg = Debug|Win32
+		{344D5C46-7781-47A8-8BDE-95EE4E7D11F6}.Debug.Build.0 = Debug|Win32
+		{344D5C46-7781-47A8-8BDE-95EE4E7D11F6}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{344D5C46-7781-47A8-8BDE-95EE4E7D11F6}.Debug MFC DLL.Build.0 = Debug|Win32
+		{344D5C46-7781-47A8-8BDE-95EE4E7D11F6}.Final.ActiveCfg = Release|Win32
+		{344D5C46-7781-47A8-8BDE-95EE4E7D11F6}.Final.Build.0 = Release|Win32
+		{344D5C46-7781-47A8-8BDE-95EE4E7D11F6}.Final MFC DLL.ActiveCfg = Release|Win32
+		{344D5C46-7781-47A8-8BDE-95EE4E7D11F6}.Final MFC DLL.Build.0 = Release|Win32
+		{344D5C46-7781-47A8-8BDE-95EE4E7D11F6}.Release.ActiveCfg = Release|Win32
+		{344D5C46-7781-47A8-8BDE-95EE4E7D11F6}.Release.Build.0 = Release|Win32
+		{344D5C46-7781-47A8-8BDE-95EE4E7D11F6}.Release MFC DLL.ActiveCfg = Release|Win32
+		{344D5C46-7781-47A8-8BDE-95EE4E7D11F6}.Release MFC DLL.Build.0 = Release|Win32
+		{344D5C46-7781-47A8-8BDE-95EE4E7D11F6}.Release Public Development.ActiveCfg = Release|Win32
+		{344D5C46-7781-47A8-8BDE-95EE4E7D11F6}.Release Public Development.Build.0 = Release|Win32
+		{8B0BA77C-25AE-4D10-A137-4A9EE7348D95}.Debug.ActiveCfg = Debug|Win32
+		{8B0BA77C-25AE-4D10-A137-4A9EE7348D95}.Debug.Build.0 = Debug|Win32
+		{8B0BA77C-25AE-4D10-A137-4A9EE7348D95}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{8B0BA77C-25AE-4D10-A137-4A9EE7348D95}.Debug MFC DLL.Build.0 = Debug|Win32
+		{8B0BA77C-25AE-4D10-A137-4A9EE7348D95}.Final.ActiveCfg = Release|Win32
+		{8B0BA77C-25AE-4D10-A137-4A9EE7348D95}.Final.Build.0 = Release|Win32
+		{8B0BA77C-25AE-4D10-A137-4A9EE7348D95}.Final MFC DLL.ActiveCfg = Release|Win32
+		{8B0BA77C-25AE-4D10-A137-4A9EE7348D95}.Final MFC DLL.Build.0 = Release|Win32
+		{8B0BA77C-25AE-4D10-A137-4A9EE7348D95}.Release.ActiveCfg = Release|Win32
+		{8B0BA77C-25AE-4D10-A137-4A9EE7348D95}.Release.Build.0 = Release|Win32
+		{8B0BA77C-25AE-4D10-A137-4A9EE7348D95}.Release MFC DLL.ActiveCfg = Release|Win32
+		{8B0BA77C-25AE-4D10-A137-4A9EE7348D95}.Release MFC DLL.Build.0 = Release|Win32
+		{8B0BA77C-25AE-4D10-A137-4A9EE7348D95}.Release Public Development.ActiveCfg = Release|Win32
+		{8B0BA77C-25AE-4D10-A137-4A9EE7348D95}.Release Public Development.Build.0 = Release|Win32
+		{1B994051-3C73-4D33-9656-9C60ACEA6F26}.Debug.ActiveCfg = Debug|Win32
+		{1B994051-3C73-4D33-9656-9C60ACEA6F26}.Debug.Build.0 = Debug|Win32
+		{1B994051-3C73-4D33-9656-9C60ACEA6F26}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{1B994051-3C73-4D33-9656-9C60ACEA6F26}.Debug MFC DLL.Build.0 = Debug|Win32
+		{1B994051-3C73-4D33-9656-9C60ACEA6F26}.Final.ActiveCfg = Release|Win32
+		{1B994051-3C73-4D33-9656-9C60ACEA6F26}.Final.Build.0 = Release|Win32
+		{1B994051-3C73-4D33-9656-9C60ACEA6F26}.Final MFC DLL.ActiveCfg = Release|Win32
+		{1B994051-3C73-4D33-9656-9C60ACEA6F26}.Final MFC DLL.Build.0 = Release|Win32
+		{1B994051-3C73-4D33-9656-9C60ACEA6F26}.Release.ActiveCfg = Release|Win32
+		{1B994051-3C73-4D33-9656-9C60ACEA6F26}.Release.Build.0 = Release|Win32
+		{1B994051-3C73-4D33-9656-9C60ACEA6F26}.Release MFC DLL.ActiveCfg = Release|Win32
+		{1B994051-3C73-4D33-9656-9C60ACEA6F26}.Release MFC DLL.Build.0 = Release|Win32
+		{1B994051-3C73-4D33-9656-9C60ACEA6F26}.Release Public Development.ActiveCfg = Release|Win32
+		{1B994051-3C73-4D33-9656-9C60ACEA6F26}.Release Public Development.Build.0 = Release|Win32
+		{985297F0-FB71-4584-B9D4-363CF2881398}.Debug.ActiveCfg = Debug|Win32
+		{985297F0-FB71-4584-B9D4-363CF2881398}.Debug.Build.0 = Debug|Win32
+		{985297F0-FB71-4584-B9D4-363CF2881398}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{985297F0-FB71-4584-B9D4-363CF2881398}.Debug MFC DLL.Build.0 = Debug|Win32
+		{985297F0-FB71-4584-B9D4-363CF2881398}.Final.ActiveCfg = Release|Win32
+		{985297F0-FB71-4584-B9D4-363CF2881398}.Final.Build.0 = Release|Win32
+		{985297F0-FB71-4584-B9D4-363CF2881398}.Final MFC DLL.ActiveCfg = Release|Win32
+		{985297F0-FB71-4584-B9D4-363CF2881398}.Final MFC DLL.Build.0 = Release|Win32
+		{985297F0-FB71-4584-B9D4-363CF2881398}.Release.ActiveCfg = Release|Win32
+		{985297F0-FB71-4584-B9D4-363CF2881398}.Release.Build.0 = Release|Win32
+		{985297F0-FB71-4584-B9D4-363CF2881398}.Release MFC DLL.ActiveCfg = Release|Win32
+		{985297F0-FB71-4584-B9D4-363CF2881398}.Release MFC DLL.Build.0 = Release|Win32
+		{985297F0-FB71-4584-B9D4-363CF2881398}.Release Public Development.ActiveCfg = Release|Win32
+		{985297F0-FB71-4584-B9D4-363CF2881398}.Release Public Development.Build.0 = Release|Win32
+		{B4A32D9C-8447-431F-9E6D-3DE58450B3DF}.Debug.ActiveCfg = Debug|Win32
+		{B4A32D9C-8447-431F-9E6D-3DE58450B3DF}.Debug.Build.0 = Debug|Win32
+		{B4A32D9C-8447-431F-9E6D-3DE58450B3DF}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{B4A32D9C-8447-431F-9E6D-3DE58450B3DF}.Debug MFC DLL.Build.0 = Debug|Win32
+		{B4A32D9C-8447-431F-9E6D-3DE58450B3DF}.Final.ActiveCfg = Release|Win32
+		{B4A32D9C-8447-431F-9E6D-3DE58450B3DF}.Final.Build.0 = Release|Win32
+		{B4A32D9C-8447-431F-9E6D-3DE58450B3DF}.Final MFC DLL.ActiveCfg = Release|Win32
+		{B4A32D9C-8447-431F-9E6D-3DE58450B3DF}.Final MFC DLL.Build.0 = Release|Win32
+		{B4A32D9C-8447-431F-9E6D-3DE58450B3DF}.Release.ActiveCfg = Release|Win32
+		{B4A32D9C-8447-431F-9E6D-3DE58450B3DF}.Release.Build.0 = Release|Win32
+		{B4A32D9C-8447-431F-9E6D-3DE58450B3DF}.Release MFC DLL.ActiveCfg = Release|Win32
+		{B4A32D9C-8447-431F-9E6D-3DE58450B3DF}.Release MFC DLL.Build.0 = Release|Win32
+		{B4A32D9C-8447-431F-9E6D-3DE58450B3DF}.Release Public Development.ActiveCfg = Release|Win32
+		{B4A32D9C-8447-431F-9E6D-3DE58450B3DF}.Release Public Development.Build.0 = Release|Win32
+		{5BEB20FD-E9E1-4A7D-8752-5A0B7578E462}.Debug.ActiveCfg = Debug|Win32
+		{5BEB20FD-E9E1-4A7D-8752-5A0B7578E462}.Debug.Build.0 = Debug|Win32
+		{5BEB20FD-E9E1-4A7D-8752-5A0B7578E462}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{5BEB20FD-E9E1-4A7D-8752-5A0B7578E462}.Debug MFC DLL.Build.0 = Debug|Win32
+		{5BEB20FD-E9E1-4A7D-8752-5A0B7578E462}.Final.ActiveCfg = Release|Win32
+		{5BEB20FD-E9E1-4A7D-8752-5A0B7578E462}.Final.Build.0 = Release|Win32
+		{5BEB20FD-E9E1-4A7D-8752-5A0B7578E462}.Final MFC DLL.ActiveCfg = Release|Win32
+		{5BEB20FD-E9E1-4A7D-8752-5A0B7578E462}.Final MFC DLL.Build.0 = Release|Win32
+		{5BEB20FD-E9E1-4A7D-8752-5A0B7578E462}.Release.ActiveCfg = Release|Win32
+		{5BEB20FD-E9E1-4A7D-8752-5A0B7578E462}.Release.Build.0 = Release|Win32
+		{5BEB20FD-E9E1-4A7D-8752-5A0B7578E462}.Release MFC DLL.ActiveCfg = Release|Win32
+		{5BEB20FD-E9E1-4A7D-8752-5A0B7578E462}.Release MFC DLL.Build.0 = Release|Win32
+		{5BEB20FD-E9E1-4A7D-8752-5A0B7578E462}.Release Public Development.ActiveCfg = Release|Win32
+		{5BEB20FD-E9E1-4A7D-8752-5A0B7578E462}.Release Public Development.Build.0 = Release|Win32
+		{A231046B-3C58-4F6C-BDF2-26DA6F8F3BF4}.Debug.ActiveCfg = Debug|Win32
+		{A231046B-3C58-4F6C-BDF2-26DA6F8F3BF4}.Debug.Build.0 = Debug|Win32
+		{A231046B-3C58-4F6C-BDF2-26DA6F8F3BF4}.Debug MFC DLL.ActiveCfg = Debug Viewer|Win32
+		{A231046B-3C58-4F6C-BDF2-26DA6F8F3BF4}.Debug MFC DLL.Build.0 = Debug Viewer|Win32
+		{A231046B-3C58-4F6C-BDF2-26DA6F8F3BF4}.Final.ActiveCfg = Release|Win32
+		{A231046B-3C58-4F6C-BDF2-26DA6F8F3BF4}.Final.Build.0 = Release|Win32
+		{A231046B-3C58-4F6C-BDF2-26DA6F8F3BF4}.Final MFC DLL.ActiveCfg = Release|Win32
+		{A231046B-3C58-4F6C-BDF2-26DA6F8F3BF4}.Final MFC DLL.Build.0 = Release|Win32
+		{A231046B-3C58-4F6C-BDF2-26DA6F8F3BF4}.Release.ActiveCfg = Release|Win32
+		{A231046B-3C58-4F6C-BDF2-26DA6F8F3BF4}.Release.Build.0 = Release|Win32
+		{A231046B-3C58-4F6C-BDF2-26DA6F8F3BF4}.Release MFC DLL.ActiveCfg = Release|Win32
+		{A231046B-3C58-4F6C-BDF2-26DA6F8F3BF4}.Release MFC DLL.Build.0 = Release|Win32
+		{A231046B-3C58-4F6C-BDF2-26DA6F8F3BF4}.Release Public Development.ActiveCfg = Release|Win32
+		{A231046B-3C58-4F6C-BDF2-26DA6F8F3BF4}.Release Public Development.Build.0 = Release|Win32
+		{B789E858-42DA-4C20-A900-DA157E1A6BB4}.Debug.ActiveCfg = Debug|Win32
+		{B789E858-42DA-4C20-A900-DA157E1A6BB4}.Debug.Build.0 = Debug|Win32
+		{B789E858-42DA-4C20-A900-DA157E1A6BB4}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{B789E858-42DA-4C20-A900-DA157E1A6BB4}.Debug MFC DLL.Build.0 = Debug|Win32
+		{B789E858-42DA-4C20-A900-DA157E1A6BB4}.Final.ActiveCfg = Release|Win32
+		{B789E858-42DA-4C20-A900-DA157E1A6BB4}.Final.Build.0 = Release|Win32
+		{B789E858-42DA-4C20-A900-DA157E1A6BB4}.Final MFC DLL.ActiveCfg = Release|Win32
+		{B789E858-42DA-4C20-A900-DA157E1A6BB4}.Final MFC DLL.Build.0 = Release|Win32
+		{B789E858-42DA-4C20-A900-DA157E1A6BB4}.Release.ActiveCfg = Release|Win32
+		{B789E858-42DA-4C20-A900-DA157E1A6BB4}.Release.Build.0 = Release|Win32
+		{B789E858-42DA-4C20-A900-DA157E1A6BB4}.Release MFC DLL.ActiveCfg = Release|Win32
+		{B789E858-42DA-4C20-A900-DA157E1A6BB4}.Release MFC DLL.Build.0 = Release|Win32
+		{B789E858-42DA-4C20-A900-DA157E1A6BB4}.Release Public Development.ActiveCfg = Release|Win32
+		{B789E858-42DA-4C20-A900-DA157E1A6BB4}.Release Public Development.Build.0 = Release|Win32
+		{2D4429EC-F905-4417-B1B3-B627C10D3DB8}.Debug.ActiveCfg = Debug|Win32
+		{2D4429EC-F905-4417-B1B3-B627C10D3DB8}.Debug.Build.0 = Debug|Win32
+		{2D4429EC-F905-4417-B1B3-B627C10D3DB8}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{2D4429EC-F905-4417-B1B3-B627C10D3DB8}.Debug MFC DLL.Build.0 = Debug|Win32
+		{2D4429EC-F905-4417-B1B3-B627C10D3DB8}.Final.ActiveCfg = Release|Win32
+		{2D4429EC-F905-4417-B1B3-B627C10D3DB8}.Final.Build.0 = Release|Win32
+		{2D4429EC-F905-4417-B1B3-B627C10D3DB8}.Final MFC DLL.ActiveCfg = Release|Win32
+		{2D4429EC-F905-4417-B1B3-B627C10D3DB8}.Final MFC DLL.Build.0 = Release|Win32
+		{2D4429EC-F905-4417-B1B3-B627C10D3DB8}.Release.ActiveCfg = Release|Win32
+		{2D4429EC-F905-4417-B1B3-B627C10D3DB8}.Release.Build.0 = Release|Win32
+		{2D4429EC-F905-4417-B1B3-B627C10D3DB8}.Release MFC DLL.ActiveCfg = Release|Win32
+		{2D4429EC-F905-4417-B1B3-B627C10D3DB8}.Release MFC DLL.Build.0 = Release|Win32
+		{2D4429EC-F905-4417-B1B3-B627C10D3DB8}.Release Public Development.ActiveCfg = Release|Win32
+		{2D4429EC-F905-4417-B1B3-B627C10D3DB8}.Release Public Development.Build.0 = Release|Win32
+		{6B735946-C903-409A-83F9-56ECDE2D4821}.Debug.ActiveCfg = Debug|Win32
+		{6B735946-C903-409A-83F9-56ECDE2D4821}.Debug.Build.0 = Debug|Win32
+		{6B735946-C903-409A-83F9-56ECDE2D4821}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{6B735946-C903-409A-83F9-56ECDE2D4821}.Debug MFC DLL.Build.0 = Debug|Win32
+		{6B735946-C903-409A-83F9-56ECDE2D4821}.Final.ActiveCfg = Release|Win32
+		{6B735946-C903-409A-83F9-56ECDE2D4821}.Final.Build.0 = Release|Win32
+		{6B735946-C903-409A-83F9-56ECDE2D4821}.Final MFC DLL.ActiveCfg = Release|Win32
+		{6B735946-C903-409A-83F9-56ECDE2D4821}.Final MFC DLL.Build.0 = Release|Win32
+		{6B735946-C903-409A-83F9-56ECDE2D4821}.Release.ActiveCfg = Release|Win32
+		{6B735946-C903-409A-83F9-56ECDE2D4821}.Release.Build.0 = Release|Win32
+		{6B735946-C903-409A-83F9-56ECDE2D4821}.Release MFC DLL.ActiveCfg = Release|Win32
+		{6B735946-C903-409A-83F9-56ECDE2D4821}.Release MFC DLL.Build.0 = Release|Win32
+		{6B735946-C903-409A-83F9-56ECDE2D4821}.Release Public Development.ActiveCfg = Release|Win32
+		{6B735946-C903-409A-83F9-56ECDE2D4821}.Release Public Development.Build.0 = Release|Win32
+		{45C6B1FD-04FF-471D-A75D-2AD6390A3F07}.Debug.ActiveCfg = Debug|Win32
+		{45C6B1FD-04FF-471D-A75D-2AD6390A3F07}.Debug.Build.0 = Debug|Win32
+		{45C6B1FD-04FF-471D-A75D-2AD6390A3F07}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{45C6B1FD-04FF-471D-A75D-2AD6390A3F07}.Debug MFC DLL.Build.0 = Debug|Win32
+		{45C6B1FD-04FF-471D-A75D-2AD6390A3F07}.Final.ActiveCfg = Release|Win32
+		{45C6B1FD-04FF-471D-A75D-2AD6390A3F07}.Final.Build.0 = Release|Win32
+		{45C6B1FD-04FF-471D-A75D-2AD6390A3F07}.Final MFC DLL.ActiveCfg = Release|Win32
+		{45C6B1FD-04FF-471D-A75D-2AD6390A3F07}.Final MFC DLL.Build.0 = Release|Win32
+		{45C6B1FD-04FF-471D-A75D-2AD6390A3F07}.Release.ActiveCfg = Release|Win32
+		{45C6B1FD-04FF-471D-A75D-2AD6390A3F07}.Release.Build.0 = Release|Win32
+		{45C6B1FD-04FF-471D-A75D-2AD6390A3F07}.Release MFC DLL.ActiveCfg = Release|Win32
+		{45C6B1FD-04FF-471D-A75D-2AD6390A3F07}.Release MFC DLL.Build.0 = Release|Win32
+		{45C6B1FD-04FF-471D-A75D-2AD6390A3F07}.Release Public Development.ActiveCfg = Release|Win32
+		{45C6B1FD-04FF-471D-A75D-2AD6390A3F07}.Release Public Development.Build.0 = Release|Win32
+		{F2968CD9-2E3D-4E72-839A-F5B62839E4FD}.Debug.ActiveCfg = Debug|Win32
+		{F2968CD9-2E3D-4E72-839A-F5B62839E4FD}.Debug.Build.0 = Debug|Win32
+		{F2968CD9-2E3D-4E72-839A-F5B62839E4FD}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{F2968CD9-2E3D-4E72-839A-F5B62839E4FD}.Debug MFC DLL.Build.0 = Debug|Win32
+		{F2968CD9-2E3D-4E72-839A-F5B62839E4FD}.Final.ActiveCfg = Release|Win32
+		{F2968CD9-2E3D-4E72-839A-F5B62839E4FD}.Final.Build.0 = Release|Win32
+		{F2968CD9-2E3D-4E72-839A-F5B62839E4FD}.Final MFC DLL.ActiveCfg = Release|Win32
+		{F2968CD9-2E3D-4E72-839A-F5B62839E4FD}.Final MFC DLL.Build.0 = Release|Win32
+		{F2968CD9-2E3D-4E72-839A-F5B62839E4FD}.Release.ActiveCfg = Release|Win32
+		{F2968CD9-2E3D-4E72-839A-F5B62839E4FD}.Release.Build.0 = Release|Win32
+		{F2968CD9-2E3D-4E72-839A-F5B62839E4FD}.Release MFC DLL.ActiveCfg = Release|Win32
+		{F2968CD9-2E3D-4E72-839A-F5B62839E4FD}.Release MFC DLL.Build.0 = Release|Win32
+		{F2968CD9-2E3D-4E72-839A-F5B62839E4FD}.Release Public Development.ActiveCfg = Release|Win32
+		{F2968CD9-2E3D-4E72-839A-F5B62839E4FD}.Release Public Development.Build.0 = Release|Win32
+		{F0F5A0A4-DA6B-4EC6-826D-802B1230D6FA}.Debug.ActiveCfg = Debug|Win32
+		{F0F5A0A4-DA6B-4EC6-826D-802B1230D6FA}.Debug.Build.0 = Debug|Win32
+		{F0F5A0A4-DA6B-4EC6-826D-802B1230D6FA}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{F0F5A0A4-DA6B-4EC6-826D-802B1230D6FA}.Debug MFC DLL.Build.0 = Debug|Win32
+		{F0F5A0A4-DA6B-4EC6-826D-802B1230D6FA}.Final.ActiveCfg = Release|Win32
+		{F0F5A0A4-DA6B-4EC6-826D-802B1230D6FA}.Final.Build.0 = Release|Win32
+		{F0F5A0A4-DA6B-4EC6-826D-802B1230D6FA}.Final MFC DLL.ActiveCfg = Release|Win32
+		{F0F5A0A4-DA6B-4EC6-826D-802B1230D6FA}.Final MFC DLL.Build.0 = Release|Win32
+		{F0F5A0A4-DA6B-4EC6-826D-802B1230D6FA}.Release.ActiveCfg = Release|Win32
+		{F0F5A0A4-DA6B-4EC6-826D-802B1230D6FA}.Release.Build.0 = Release|Win32
+		{F0F5A0A4-DA6B-4EC6-826D-802B1230D6FA}.Release MFC DLL.ActiveCfg = Release|Win32
+		{F0F5A0A4-DA6B-4EC6-826D-802B1230D6FA}.Release MFC DLL.Build.0 = Release|Win32
+		{F0F5A0A4-DA6B-4EC6-826D-802B1230D6FA}.Release Public Development.ActiveCfg = Release|Win32
+		{F0F5A0A4-DA6B-4EC6-826D-802B1230D6FA}.Release Public Development.Build.0 = Release|Win32
+		{8C18C2F2-E5AE-45DE-BC7D-EFD61721175C}.Debug.ActiveCfg = Debug|Win32
+		{8C18C2F2-E5AE-45DE-BC7D-EFD61721175C}.Debug.Build.0 = Debug|Win32
+		{8C18C2F2-E5AE-45DE-BC7D-EFD61721175C}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{8C18C2F2-E5AE-45DE-BC7D-EFD61721175C}.Debug MFC DLL.Build.0 = Debug|Win32
+		{8C18C2F2-E5AE-45DE-BC7D-EFD61721175C}.Final.ActiveCfg = Release|Win32
+		{8C18C2F2-E5AE-45DE-BC7D-EFD61721175C}.Final.Build.0 = Release|Win32
+		{8C18C2F2-E5AE-45DE-BC7D-EFD61721175C}.Final MFC DLL.ActiveCfg = Release|Win32
+		{8C18C2F2-E5AE-45DE-BC7D-EFD61721175C}.Final MFC DLL.Build.0 = Release|Win32
+		{8C18C2F2-E5AE-45DE-BC7D-EFD61721175C}.Release.ActiveCfg = Release|Win32
+		{8C18C2F2-E5AE-45DE-BC7D-EFD61721175C}.Release.Build.0 = Release|Win32
+		{8C18C2F2-E5AE-45DE-BC7D-EFD61721175C}.Release MFC DLL.ActiveCfg = Release|Win32
+		{8C18C2F2-E5AE-45DE-BC7D-EFD61721175C}.Release MFC DLL.Build.0 = Release|Win32
+		{8C18C2F2-E5AE-45DE-BC7D-EFD61721175C}.Release Public Development.ActiveCfg = Release|Win32
+		{8C18C2F2-E5AE-45DE-BC7D-EFD61721175C}.Release Public Development.Build.0 = Release|Win32
+		{D3AEB67F-0440-4840-969B-840E0AD96DED}.Debug.ActiveCfg = Debug|Win32
+		{D3AEB67F-0440-4840-969B-840E0AD96DED}.Debug.Build.0 = Debug|Win32
+		{D3AEB67F-0440-4840-969B-840E0AD96DED}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{D3AEB67F-0440-4840-969B-840E0AD96DED}.Debug MFC DLL.Build.0 = Debug|Win32
+		{D3AEB67F-0440-4840-969B-840E0AD96DED}.Final.ActiveCfg = Release|Win32
+		{D3AEB67F-0440-4840-969B-840E0AD96DED}.Final.Build.0 = Release|Win32
+		{D3AEB67F-0440-4840-969B-840E0AD96DED}.Final MFC DLL.ActiveCfg = Release|Win32
+		{D3AEB67F-0440-4840-969B-840E0AD96DED}.Final MFC DLL.Build.0 = Release|Win32
+		{D3AEB67F-0440-4840-969B-840E0AD96DED}.Release.ActiveCfg = Release|Win32
+		{D3AEB67F-0440-4840-969B-840E0AD96DED}.Release.Build.0 = Release|Win32
+		{D3AEB67F-0440-4840-969B-840E0AD96DED}.Release MFC DLL.ActiveCfg = Release|Win32
+		{D3AEB67F-0440-4840-969B-840E0AD96DED}.Release MFC DLL.Build.0 = Release|Win32
+		{D3AEB67F-0440-4840-969B-840E0AD96DED}.Release Public Development.ActiveCfg = Release|Win32
+		{D3AEB67F-0440-4840-969B-840E0AD96DED}.Release Public Development.Build.0 = Release|Win32
+		{44A050DC-DD0D-4F41-BFFC-D2427138232B}.Debug.ActiveCfg = Debug|Win32
+		{44A050DC-DD0D-4F41-BFFC-D2427138232B}.Debug.Build.0 = Debug|Win32
+		{44A050DC-DD0D-4F41-BFFC-D2427138232B}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{44A050DC-DD0D-4F41-BFFC-D2427138232B}.Debug MFC DLL.Build.0 = Debug|Win32
+		{44A050DC-DD0D-4F41-BFFC-D2427138232B}.Final.ActiveCfg = Release|Win32
+		{44A050DC-DD0D-4F41-BFFC-D2427138232B}.Final.Build.0 = Release|Win32
+		{44A050DC-DD0D-4F41-BFFC-D2427138232B}.Final MFC DLL.ActiveCfg = Release|Win32
+		{44A050DC-DD0D-4F41-BFFC-D2427138232B}.Final MFC DLL.Build.0 = Release|Win32
+		{44A050DC-DD0D-4F41-BFFC-D2427138232B}.Release.ActiveCfg = Release|Win32
+		{44A050DC-DD0D-4F41-BFFC-D2427138232B}.Release.Build.0 = Release|Win32
+		{44A050DC-DD0D-4F41-BFFC-D2427138232B}.Release MFC DLL.ActiveCfg = Release|Win32
+		{44A050DC-DD0D-4F41-BFFC-D2427138232B}.Release MFC DLL.Build.0 = Release|Win32
+		{44A050DC-DD0D-4F41-BFFC-D2427138232B}.Release Public Development.ActiveCfg = Release|Win32
+		{44A050DC-DD0D-4F41-BFFC-D2427138232B}.Release Public Development.Build.0 = Release|Win32
+		{0CC88AA6-8111-4784-B910-EBB93BBD1953}.Debug.ActiveCfg = Debug|Win32
+		{0CC88AA6-8111-4784-B910-EBB93BBD1953}.Debug.Build.0 = Debug|Win32
+		{0CC88AA6-8111-4784-B910-EBB93BBD1953}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{0CC88AA6-8111-4784-B910-EBB93BBD1953}.Debug MFC DLL.Build.0 = Debug|Win32
+		{0CC88AA6-8111-4784-B910-EBB93BBD1953}.Final.ActiveCfg = Release|Win32
+		{0CC88AA6-8111-4784-B910-EBB93BBD1953}.Final.Build.0 = Release|Win32
+		{0CC88AA6-8111-4784-B910-EBB93BBD1953}.Final MFC DLL.ActiveCfg = Release|Win32
+		{0CC88AA6-8111-4784-B910-EBB93BBD1953}.Final MFC DLL.Build.0 = Release|Win32
+		{0CC88AA6-8111-4784-B910-EBB93BBD1953}.Release.ActiveCfg = Release|Win32
+		{0CC88AA6-8111-4784-B910-EBB93BBD1953}.Release.Build.0 = Release|Win32
+		{0CC88AA6-8111-4784-B910-EBB93BBD1953}.Release MFC DLL.ActiveCfg = Release|Win32
+		{0CC88AA6-8111-4784-B910-EBB93BBD1953}.Release MFC DLL.Build.0 = Release|Win32
+		{0CC88AA6-8111-4784-B910-EBB93BBD1953}.Release Public Development.ActiveCfg = Release|Win32
+		{0CC88AA6-8111-4784-B910-EBB93BBD1953}.Release Public Development.Build.0 = Release|Win32
+		{7F765A07-016E-4C8E-BF3D-76F26D93A913}.Debug.ActiveCfg = Debug|Win32
+		{7F765A07-016E-4C8E-BF3D-76F26D93A913}.Debug.Build.0 = Debug|Win32
+		{7F765A07-016E-4C8E-BF3D-76F26D93A913}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{7F765A07-016E-4C8E-BF3D-76F26D93A913}.Debug MFC DLL.Build.0 = Debug|Win32
+		{7F765A07-016E-4C8E-BF3D-76F26D93A913}.Final.ActiveCfg = Release|Win32
+		{7F765A07-016E-4C8E-BF3D-76F26D93A913}.Final.Build.0 = Release|Win32
+		{7F765A07-016E-4C8E-BF3D-76F26D93A913}.Final MFC DLL.ActiveCfg = Release|Win32
+		{7F765A07-016E-4C8E-BF3D-76F26D93A913}.Final MFC DLL.Build.0 = Release|Win32
+		{7F765A07-016E-4C8E-BF3D-76F26D93A913}.Release.ActiveCfg = Release|Win32
+		{7F765A07-016E-4C8E-BF3D-76F26D93A913}.Release.Build.0 = Release|Win32
+		{7F765A07-016E-4C8E-BF3D-76F26D93A913}.Release MFC DLL.ActiveCfg = Release|Win32
+		{7F765A07-016E-4C8E-BF3D-76F26D93A913}.Release MFC DLL.Build.0 = Release|Win32
+		{7F765A07-016E-4C8E-BF3D-76F26D93A913}.Release Public Development.ActiveCfg = Release|Win32
+		{7F765A07-016E-4C8E-BF3D-76F26D93A913}.Release Public Development.Build.0 = Release|Win32
+		{0EC450E8-1A01-4A4A-928F-5CD0BC6630F9}.Debug.ActiveCfg = Debug|Win32
+		{0EC450E8-1A01-4A4A-928F-5CD0BC6630F9}.Debug.Build.0 = Debug|Win32
+		{0EC450E8-1A01-4A4A-928F-5CD0BC6630F9}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{0EC450E8-1A01-4A4A-928F-5CD0BC6630F9}.Debug MFC DLL.Build.0 = Debug|Win32
+		{0EC450E8-1A01-4A4A-928F-5CD0BC6630F9}.Final.ActiveCfg = Release|Win32
+		{0EC450E8-1A01-4A4A-928F-5CD0BC6630F9}.Final.Build.0 = Release|Win32
+		{0EC450E8-1A01-4A4A-928F-5CD0BC6630F9}.Final MFC DLL.ActiveCfg = Release|Win32
+		{0EC450E8-1A01-4A4A-928F-5CD0BC6630F9}.Final MFC DLL.Build.0 = Release|Win32
+		{0EC450E8-1A01-4A4A-928F-5CD0BC6630F9}.Release.ActiveCfg = Release|Win32
+		{0EC450E8-1A01-4A4A-928F-5CD0BC6630F9}.Release.Build.0 = Release|Win32
+		{0EC450E8-1A01-4A4A-928F-5CD0BC6630F9}.Release MFC DLL.ActiveCfg = Release|Win32
+		{0EC450E8-1A01-4A4A-928F-5CD0BC6630F9}.Release MFC DLL.Build.0 = Release|Win32
+		{0EC450E8-1A01-4A4A-928F-5CD0BC6630F9}.Release Public Development.ActiveCfg = Release|Win32
+		{0EC450E8-1A01-4A4A-928F-5CD0BC6630F9}.Release Public Development.Build.0 = Release|Win32
+		{908F401E-1F94-4424-BF35-2397AEA1799C}.Debug.ActiveCfg = Debug|Win32
+		{908F401E-1F94-4424-BF35-2397AEA1799C}.Debug.Build.0 = Debug|Win32
+		{908F401E-1F94-4424-BF35-2397AEA1799C}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{908F401E-1F94-4424-BF35-2397AEA1799C}.Debug MFC DLL.Build.0 = Debug|Win32
+		{908F401E-1F94-4424-BF35-2397AEA1799C}.Final.ActiveCfg = Release|Win32
+		{908F401E-1F94-4424-BF35-2397AEA1799C}.Final.Build.0 = Release|Win32
+		{908F401E-1F94-4424-BF35-2397AEA1799C}.Final MFC DLL.ActiveCfg = Release|Win32
+		{908F401E-1F94-4424-BF35-2397AEA1799C}.Final MFC DLL.Build.0 = Release|Win32
+		{908F401E-1F94-4424-BF35-2397AEA1799C}.Release.ActiveCfg = Release|Win32
+		{908F401E-1F94-4424-BF35-2397AEA1799C}.Release.Build.0 = Release|Win32
+		{908F401E-1F94-4424-BF35-2397AEA1799C}.Release MFC DLL.ActiveCfg = Release|Win32
+		{908F401E-1F94-4424-BF35-2397AEA1799C}.Release MFC DLL.Build.0 = Release|Win32
+		{908F401E-1F94-4424-BF35-2397AEA1799C}.Release Public Development.ActiveCfg = Release|Win32
+		{908F401E-1F94-4424-BF35-2397AEA1799C}.Release Public Development.Build.0 = Release|Win32
+		{6014514A-F474-4D99-BEFE-CB699BDE2923}.Debug.ActiveCfg = Debug|Win32
+		{6014514A-F474-4D99-BEFE-CB699BDE2923}.Debug.Build.0 = Debug|Win32
+		{6014514A-F474-4D99-BEFE-CB699BDE2923}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{6014514A-F474-4D99-BEFE-CB699BDE2923}.Debug MFC DLL.Build.0 = Debug|Win32
+		{6014514A-F474-4D99-BEFE-CB699BDE2923}.Final.ActiveCfg = Release|Win32
+		{6014514A-F474-4D99-BEFE-CB699BDE2923}.Final.Build.0 = Release|Win32
+		{6014514A-F474-4D99-BEFE-CB699BDE2923}.Final MFC DLL.ActiveCfg = Release|Win32
+		{6014514A-F474-4D99-BEFE-CB699BDE2923}.Final MFC DLL.Build.0 = Release|Win32
+		{6014514A-F474-4D99-BEFE-CB699BDE2923}.Release.ActiveCfg = Release|Win32
+		{6014514A-F474-4D99-BEFE-CB699BDE2923}.Release.Build.0 = Release|Win32
+		{6014514A-F474-4D99-BEFE-CB699BDE2923}.Release MFC DLL.ActiveCfg = Release|Win32
+		{6014514A-F474-4D99-BEFE-CB699BDE2923}.Release MFC DLL.Build.0 = Release|Win32
+		{6014514A-F474-4D99-BEFE-CB699BDE2923}.Release Public Development.ActiveCfg = Release|Win32
+		{6014514A-F474-4D99-BEFE-CB699BDE2923}.Release Public Development.Build.0 = Release|Win32
+		{0B2BB04C-2A31-4F99-A025-57C1987EE867}.Debug.ActiveCfg = Debug|Win32
+		{0B2BB04C-2A31-4F99-A025-57C1987EE867}.Debug.Build.0 = Debug|Win32
+		{0B2BB04C-2A31-4F99-A025-57C1987EE867}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{0B2BB04C-2A31-4F99-A025-57C1987EE867}.Debug MFC DLL.Build.0 = Debug|Win32
+		{0B2BB04C-2A31-4F99-A025-57C1987EE867}.Final.ActiveCfg = Release|Win32
+		{0B2BB04C-2A31-4F99-A025-57C1987EE867}.Final.Build.0 = Release|Win32
+		{0B2BB04C-2A31-4F99-A025-57C1987EE867}.Final MFC DLL.ActiveCfg = Release|Win32
+		{0B2BB04C-2A31-4F99-A025-57C1987EE867}.Final MFC DLL.Build.0 = Release|Win32
+		{0B2BB04C-2A31-4F99-A025-57C1987EE867}.Release.ActiveCfg = Release|Win32
+		{0B2BB04C-2A31-4F99-A025-57C1987EE867}.Release.Build.0 = Release|Win32
+		{0B2BB04C-2A31-4F99-A025-57C1987EE867}.Release MFC DLL.ActiveCfg = Release|Win32
+		{0B2BB04C-2A31-4F99-A025-57C1987EE867}.Release MFC DLL.Build.0 = Release|Win32
+		{0B2BB04C-2A31-4F99-A025-57C1987EE867}.Release Public Development.ActiveCfg = Release|Win32
+		{0B2BB04C-2A31-4F99-A025-57C1987EE867}.Release Public Development.Build.0 = Release|Win32
+		{85DA6C50-F652-42B3-9833-2AE501ECD330}.Debug.ActiveCfg = Debug|Win32
+		{85DA6C50-F652-42B3-9833-2AE501ECD330}.Debug.Build.0 = Debug|Win32
+		{85DA6C50-F652-42B3-9833-2AE501ECD330}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{85DA6C50-F652-42B3-9833-2AE501ECD330}.Debug MFC DLL.Build.0 = Debug|Win32
+		{85DA6C50-F652-42B3-9833-2AE501ECD330}.Final.ActiveCfg = Release|Win32
+		{85DA6C50-F652-42B3-9833-2AE501ECD330}.Final.Build.0 = Release|Win32
+		{85DA6C50-F652-42B3-9833-2AE501ECD330}.Final MFC DLL.ActiveCfg = Release|Win32
+		{85DA6C50-F652-42B3-9833-2AE501ECD330}.Final MFC DLL.Build.0 = Release|Win32
+		{85DA6C50-F652-42B3-9833-2AE501ECD330}.Release.ActiveCfg = Release|Win32
+		{85DA6C50-F652-42B3-9833-2AE501ECD330}.Release.Build.0 = Release|Win32
+		{85DA6C50-F652-42B3-9833-2AE501ECD330}.Release MFC DLL.ActiveCfg = Release|Win32
+		{85DA6C50-F652-42B3-9833-2AE501ECD330}.Release MFC DLL.Build.0 = Release|Win32
+		{85DA6C50-F652-42B3-9833-2AE501ECD330}.Release Public Development.ActiveCfg = Release|Win32
+		{85DA6C50-F652-42B3-9833-2AE501ECD330}.Release Public Development.Build.0 = Release|Win32
+		{A4EE306B-28AB-4056-A88D-2597F0E82FF3}.Debug.ActiveCfg = Debug|Win32
+		{A4EE306B-28AB-4056-A88D-2597F0E82FF3}.Debug.Build.0 = Debug|Win32
+		{A4EE306B-28AB-4056-A88D-2597F0E82FF3}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{A4EE306B-28AB-4056-A88D-2597F0E82FF3}.Debug MFC DLL.Build.0 = Debug|Win32
+		{A4EE306B-28AB-4056-A88D-2597F0E82FF3}.Final.ActiveCfg = Release|Win32
+		{A4EE306B-28AB-4056-A88D-2597F0E82FF3}.Final.Build.0 = Release|Win32
+		{A4EE306B-28AB-4056-A88D-2597F0E82FF3}.Final MFC DLL.ActiveCfg = Release|Win32
+		{A4EE306B-28AB-4056-A88D-2597F0E82FF3}.Final MFC DLL.Build.0 = Release|Win32
+		{A4EE306B-28AB-4056-A88D-2597F0E82FF3}.Release.ActiveCfg = Release|Win32
+		{A4EE306B-28AB-4056-A88D-2597F0E82FF3}.Release.Build.0 = Release|Win32
+		{A4EE306B-28AB-4056-A88D-2597F0E82FF3}.Release MFC DLL.ActiveCfg = Release|Win32
+		{A4EE306B-28AB-4056-A88D-2597F0E82FF3}.Release MFC DLL.Build.0 = Release|Win32
+		{A4EE306B-28AB-4056-A88D-2597F0E82FF3}.Release Public Development.ActiveCfg = Release|Win32
+		{A4EE306B-28AB-4056-A88D-2597F0E82FF3}.Release Public Development.Build.0 = Release|Win32
+		{F58E27EA-DC85-4631-A1EE-1E157A88E5EF}.Debug.ActiveCfg = Debug|Win32
+		{F58E27EA-DC85-4631-A1EE-1E157A88E5EF}.Debug.Build.0 = Debug|Win32
+		{F58E27EA-DC85-4631-A1EE-1E157A88E5EF}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{F58E27EA-DC85-4631-A1EE-1E157A88E5EF}.Debug MFC DLL.Build.0 = Debug|Win32
+		{F58E27EA-DC85-4631-A1EE-1E157A88E5EF}.Final.ActiveCfg = Release|Win32
+		{F58E27EA-DC85-4631-A1EE-1E157A88E5EF}.Final.Build.0 = Release|Win32
+		{F58E27EA-DC85-4631-A1EE-1E157A88E5EF}.Final MFC DLL.ActiveCfg = Release|Win32
+		{F58E27EA-DC85-4631-A1EE-1E157A88E5EF}.Final MFC DLL.Build.0 = Release|Win32
+		{F58E27EA-DC85-4631-A1EE-1E157A88E5EF}.Release.ActiveCfg = Release|Win32
+		{F58E27EA-DC85-4631-A1EE-1E157A88E5EF}.Release.Build.0 = Release|Win32
+		{F58E27EA-DC85-4631-A1EE-1E157A88E5EF}.Release MFC DLL.ActiveCfg = Release|Win32
+		{F58E27EA-DC85-4631-A1EE-1E157A88E5EF}.Release MFC DLL.Build.0 = Release|Win32
+		{F58E27EA-DC85-4631-A1EE-1E157A88E5EF}.Release Public Development.ActiveCfg = Release|Win32
+		{F58E27EA-DC85-4631-A1EE-1E157A88E5EF}.Release Public Development.Build.0 = Release|Win32
+		{A87C7CEB-F5BE-4557-94B3-9E639FB971B8}.Debug.ActiveCfg = Debug|Win32
+		{A87C7CEB-F5BE-4557-94B3-9E639FB971B8}.Debug.Build.0 = Debug|Win32
+		{A87C7CEB-F5BE-4557-94B3-9E639FB971B8}.Debug MFC DLL.ActiveCfg = Debug|Win32
+		{A87C7CEB-F5BE-4557-94B3-9E639FB971B8}.Debug MFC DLL.Build.0 = Debug|Win32
+		{A87C7CEB-F5BE-4557-94B3-9E639FB971B8}.Final.ActiveCfg = Release|Win32
+		{A87C7CEB-F5BE-4557-94B3-9E639FB971B8}.Final.Build.0 = Release|Win32
+		{A87C7CEB-F5BE-4557-94B3-9E639FB971B8}.Final MFC DLL.ActiveCfg = Release|Win32
+		{A87C7CEB-F5BE-4557-94B3-9E639FB971B8}.Final MFC DLL.Build.0 = Release|Win32
+		{A87C7CEB-F5BE-4557-94B3-9E639FB971B8}.Release.ActiveCfg = Release|Win32
+		{A87C7CEB-F5BE-4557-94B3-9E639FB971B8}.Release.Build.0 = Release|Win32
+		{A87C7CEB-F5BE-4557-94B3-9E639FB971B8}.Release MFC DLL.ActiveCfg = Release|Win32
+		{A87C7CEB-F5BE-4557-94B3-9E639FB971B8}.Release MFC DLL.Build.0 = Release|Win32
+		{A87C7CEB-F5BE-4557-94B3-9E639FB971B8}.Release Public Development.ActiveCfg = Release|Win32
+		{A87C7CEB-F5BE-4557-94B3-9E639FB971B8}.Release Public Development.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
