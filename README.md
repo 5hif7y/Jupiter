@@ -18,22 +18,10 @@ This repository **will not** include any game code or assets.
 If your goal is to experiment with the code and assets from games like *NOLF*, *NOLF2*, *TRON 2.0*, or other LithTech-based titles, I recommend the following repository:  
 [https://github.com/Katana-Steel/lithtech](https://github.com/Katana-Steel/lithtech)
 
----
+And its related forks:
+[https://github.com/jsj2008/lithtech/network/members](https://github.com/jsj2008/lithtech/network/members)
 
-## File changes compared to the vanilla engine installation
+This branch will be kept clean, containing only the source code files and a CMake build script.
+See the [touchdown-gpl-release branch](https://github.com/5hif7y/Jupiter/tree/touchdown-gpl-release) for the full original layout and details on [file changes compared to the vanilla engine installation](https://github.com/5hif7y/Jupiter/tree/touchdown-gpl-release?tab=readme-ov-file#file-changes-compared-to-the-vanilla-engine-installation)
 
-- **Moved** `StartHere.htm` to `Docs/` and fixed internal references to other documentation files.
-
-- **Deleted/Not included directories:**
-  - `Development` – contained the binary *No One Lives Forever™ 2* game and resources.
-  - `DirectX` – contained DirectX 2006 installation files (runtime, SDK, and symbols: `directx_feb2006_redist.exe`, `dxsdk_feb2006.exe`, `dxsdk_feb2006_symbols.exe`).
-  - `Engine/tools/Plugins` – although functional, these original tools and plugins are obsolete. I encourage the use of open-source editors (or at least affordable high-quality tools such as **Aseprite** or the **Affinity Suite**).
-  - `Game` – contained *No One Lives Forever™ 2* source code.
-  - `Libs` – contained library source code (`ButeMgr`, `CryptMgr`, `dibmgr`, `dtxmgr`, `genregmgr`, `lith`, `MFCStub`, `RegMgr`, `RegMgr32`, `StackTracer`, `stdlith`, `zlib`).
-  - `Samples` – contained sample source code with many examples.
-  - `Tools` – contained tool binaries, helper scripts (`*.bat`, `*.pl`), Maya/3ds Max/Photoshop plugins, VC7 and VC71 runtimes, codecs, and many assets.
-
-A `Deleted-NotIncluded-contents.csv` file containing the original file list will be kept in this repository **for reference purposes only**.
-
-Each of these relevant "deleted" or "not included" files will be documented in detail in the future.
 
