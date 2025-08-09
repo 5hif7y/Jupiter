@@ -24,4 +24,6 @@ And its related forks:
 This branch will be kept clean, containing only the source code files and a CMake build script.
 See the [touchdown-gpl-release branch](https://github.com/5hif7y/Jupiter/tree/touchdown-gpl-release) for the full original layout and details on [file changes compared to the vanilla engine installation](https://github.com/5hif7y/Jupiter/tree/touchdown-gpl-release?tab=readme-ov-file#file-changes-compared-to-the-vanilla-engine-installation)
 
+The following branch will be containing the minimal changes required to fix and modernize the compilation toolchain for current MSVC and GCC
+[https://github.com/5hif7y/Jupiter/tree/modernize-toolchains](https://github.com/5hif7y/Jupiter/tree/modernize-toolchains)
 
