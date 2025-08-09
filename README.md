@@ -1,4 +1,4 @@
-# PC Jupiter Enterprise Edition Build 69 – GPL Release
+# Slight modernization of the GPL-released PC Jupiter Enterprise Edition Build 69 game engine for educational purposes
 
 This project is based on the apparent GPL release of the Jupiter EX engine (PC Enterprise Edition Build 69) made before Touchdown Entertainment ceased operations.  
 The original release included game code and assets from *No One Lives Forever 2* (NOLF2), and the game code from *Tron 2.0*. Code from other games came from their respective public releases.
